@@ -7,7 +7,7 @@ namespace Tasks
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Git on vs testing");
 
             Console.ReadKey();
         }
