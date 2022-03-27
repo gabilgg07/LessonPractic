@@ -1,0 +1,13 @@
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/EnumType/bin/Debug/netcoreapp3.1/EnumType.deps.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/EnumType/bin/Debug/netcoreapp3.1/EnumType.runtimeconfig.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/EnumType/bin/Debug/netcoreapp3.1/EnumType.runtimeconfig.dev.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/EnumType/bin/Debug/netcoreapp3.1/EnumType.dll
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/EnumType/bin/Debug/netcoreapp3.1/EnumType.pdb
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/EnumType/obj/Debug/netcoreapp3.1/EnumType.csproj.AssemblyReference.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/EnumType/obj/Debug/netcoreapp3.1/EnumType.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/EnumType/obj/Debug/netcoreapp3.1/EnumType.AssemblyInfoInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/EnumType/obj/Debug/netcoreapp3.1/EnumType.AssemblyInfo.cs
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/EnumType/obj/Debug/netcoreapp3.1/EnumType.csproj.CoreCompileInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/EnumType/obj/Debug/netcoreapp3.1/EnumType.dll
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/EnumType/obj/Debug/netcoreapp3.1/EnumType.pdb
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/EnumType/obj/Debug/netcoreapp3.1/EnumType.genruntimeconfig.cache

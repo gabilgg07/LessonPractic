@@ -1,0 +1,16 @@
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/CodeOnCalendar/bin/Debug/netcoreapp3.1/CodeOnCalendar.deps.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/CodeOnCalendar/bin/Debug/netcoreapp3.1/CodeOnCalendar.runtimeconfig.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/CodeOnCalendar/bin/Debug/netcoreapp3.1/CodeOnCalendar.runtimeconfig.dev.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/CodeOnCalendar/bin/Debug/netcoreapp3.1/CodeOnCalendar.dll
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/CodeOnCalendar/bin/Debug/netcoreapp3.1/CodeOnCalendar.pdb
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/CodeOnCalendar/obj/Debug/netcoreapp3.1/CodeOnCalendar.csproj.AssemblyReference.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/CodeOnCalendar/obj/Debug/netcoreapp3.1/CodeOnCalendar.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/CodeOnCalendar/obj/Debug/netcoreapp3.1/CodeOnCalendar.AssemblyInfoInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/CodeOnCalendar/obj/Debug/netcoreapp3.1/CodeOnCalendar.AssemblyInfo.cs
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/CodeOnCalendar/obj/Debug/netcoreapp3.1/CodeOnCalendar.csproj.CoreCompileInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/CodeOnCalendar/obj/Debug/netcoreapp3.1/CodeOnCalendar.dll
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/CodeOnCalendar/obj/Debug/netcoreapp3.1/CodeOnCalendar.pdb
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/CodeOnCalendar/obj/Debug/netcoreapp3.1/CodeOnCalendar.genruntimeconfig.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/CodeOnCalendar/bin/Debug/netcoreapp3.1/Helper.dll
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/CodeOnCalendar/bin/Debug/netcoreapp3.1/Helper.pdb
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/CodeOnCalendar/obj/Debug/netcoreapp3.1/CodeOnCalendar.csproj.CopyComplete

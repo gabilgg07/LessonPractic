@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{D33C8038-F4C6-4C1E-BA8F-F4E2E08B7D5A}|Default">
+  <MonoDevelop.Ide.ItemProperties.Tasks PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.PropertiesEncapsulation PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tasks/Classes/Rhomb.cs">
+    <Files>
+      <File FileName="Helper/MathHelper.cs" Line="1" Column="1" />
+      <File FileName="Helper/DataHelper.cs" />
+      <File FileName="Tasks/Program.cs" />
+      <File FileName="Tasks/Classes/Quadrangular.cs" />
+      <File FileName="Tasks/Classes/Rectangular.cs" />
+      <File FileName="Tasks/Classes/Square.cs" />
+      <File FileName="Tasks/Classes/Rhomb.cs" Line="16" Column="75" />
+      <File FileName="Tasks/Classes/Trapeze.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ConsolePrograms" expanded="True">
+            <Node name="OOP" expanded="True" />
+            <Node name="Helper" expanded="True" />
+            <Node name="Tasks" expanded="True">
+              <Node name="Classes" expanded="True">
+                <Node name="Rhomb.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>OOP/EncapsulationLesson/InheritanceLesson/InheritanceLesson.csproj</String>
+    <String>AccessModifiers/AccessModifiers.csproj</String>
+    <String>AccessModifierTestingLibrary/AccessModifierTestingLibrary.csproj</String>
+    <String>AdditionalExplanations/AdditionalExplanations.csproj</String>
+    <String>AddPersonToArray/AddPersonToArray.csproj</String>
+    <String>CodeOnCalendar/CodeOnCalendar.csproj</String>
+    <String>EnumType/EnumType.csproj</String>
+    <String>StructType/StructType.csproj</String>
+    <String>OOP/AbstractionLesson/AbstractionLesson.csproj</String>
+    <String>OOP/EncapsulationLesson/EncapsulationLesson.csproj</String>
+    <String>OOP/InheritenceLesson/InheritenceLesson.csproj</String>
+    <String>OOP/PolymorphismLesson/PolymorphismLesson.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

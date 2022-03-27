@@ -1,0 +1,16 @@
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/InheritenceLesson/bin/Debug/netcoreapp3.1/InheritenceLesson.deps.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/InheritenceLesson/bin/Debug/netcoreapp3.1/InheritenceLesson.runtimeconfig.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/InheritenceLesson/bin/Debug/netcoreapp3.1/InheritenceLesson.runtimeconfig.dev.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/InheritenceLesson/bin/Debug/netcoreapp3.1/InheritenceLesson.dll
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/InheritenceLesson/bin/Debug/netcoreapp3.1/InheritenceLesson.pdb
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/InheritenceLesson/obj/Debug/netcoreapp3.1/InheritenceLesson.csproj.AssemblyReference.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/InheritenceLesson/obj/Debug/netcoreapp3.1/InheritenceLesson.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/InheritenceLesson/obj/Debug/netcoreapp3.1/InheritenceLesson.AssemblyInfoInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/InheritenceLesson/obj/Debug/netcoreapp3.1/InheritenceLesson.AssemblyInfo.cs
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/InheritenceLesson/obj/Debug/netcoreapp3.1/InheritenceLesson.csproj.CoreCompileInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/InheritenceLesson/obj/Debug/netcoreapp3.1/InheritenceLesson.dll
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/InheritenceLesson/obj/Debug/netcoreapp3.1/InheritenceLesson.pdb
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/InheritenceLesson/obj/Debug/netcoreapp3.1/InheritenceLesson.genruntimeconfig.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/InheritenceLesson/bin/Debug/netcoreapp3.1/Helper.dll
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/InheritenceLesson/bin/Debug/netcoreapp3.1/Helper.pdb
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/InheritenceLesson/obj/Debug/netcoreapp3.1/InheritenceLesson.csproj.CopyComplete

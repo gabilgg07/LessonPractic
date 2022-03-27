@@ -1,0 +1,13 @@
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/PolymorphismLesson/bin/Debug/netcoreapp3.1/PolymorphismLesson.deps.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/PolymorphismLesson/bin/Debug/netcoreapp3.1/PolymorphismLesson.runtimeconfig.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/PolymorphismLesson/bin/Debug/netcoreapp3.1/PolymorphismLesson.runtimeconfig.dev.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/PolymorphismLesson/bin/Debug/netcoreapp3.1/PolymorphismLesson.dll
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/PolymorphismLesson/bin/Debug/netcoreapp3.1/PolymorphismLesson.pdb
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/PolymorphismLesson/obj/Debug/netcoreapp3.1/PolymorphismLesson.csproj.AssemblyReference.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/PolymorphismLesson/obj/Debug/netcoreapp3.1/PolymorphismLesson.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/PolymorphismLesson/obj/Debug/netcoreapp3.1/PolymorphismLesson.AssemblyInfoInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/PolymorphismLesson/obj/Debug/netcoreapp3.1/PolymorphismLesson.AssemblyInfo.cs
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/PolymorphismLesson/obj/Debug/netcoreapp3.1/PolymorphismLesson.csproj.CoreCompileInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/PolymorphismLesson/obj/Debug/netcoreapp3.1/PolymorphismLesson.dll
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/PolymorphismLesson/obj/Debug/netcoreapp3.1/PolymorphismLesson.pdb
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/PolymorphismLesson/obj/Debug/netcoreapp3.1/PolymorphismLesson.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/PropertiesEncapsulation/bin/Debug/netcoreapp3.1/PropertiesEncapsulation.deps.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/PropertiesEncapsulation/bin/Debug/netcoreapp3.1/PropertiesEncapsulation.runtimeconfig.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/PropertiesEncapsulation/bin/Debug/netcoreapp3.1/PropertiesEncapsulation.runtimeconfig.dev.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/PropertiesEncapsulation/bin/Debug/netcoreapp3.1/PropertiesEncapsulation.dll
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/PropertiesEncapsulation/bin/Debug/netcoreapp3.1/PropertiesEncapsulation.pdb
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/PropertiesEncapsulation/obj/Debug/netcoreapp3.1/PropertiesEncapsulation.csproj.AssemblyReference.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/PropertiesEncapsulation/obj/Debug/netcoreapp3.1/PropertiesEncapsulation.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/PropertiesEncapsulation/obj/Debug/netcoreapp3.1/PropertiesEncapsulation.AssemblyInfoInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/PropertiesEncapsulation/obj/Debug/netcoreapp3.1/PropertiesEncapsulation.AssemblyInfo.cs
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/PropertiesEncapsulation/obj/Debug/netcoreapp3.1/PropertiesEncapsulation.csproj.CoreCompileInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/PropertiesEncapsulation/obj/Debug/netcoreapp3.1/PropertiesEncapsulation.dll
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/PropertiesEncapsulation/obj/Debug/netcoreapp3.1/PropertiesEncapsulation.pdb
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/PropertiesEncapsulation/obj/Debug/netcoreapp3.1/PropertiesEncapsulation.genruntimeconfig.cache

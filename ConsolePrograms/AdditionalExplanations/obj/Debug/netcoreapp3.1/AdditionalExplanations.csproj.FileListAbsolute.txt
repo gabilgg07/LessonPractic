@@ -1,0 +1,16 @@
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AdditionalExplanations/bin/Debug/netcoreapp3.1/AdditionalExplanations.deps.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AdditionalExplanations/bin/Debug/netcoreapp3.1/AdditionalExplanations.runtimeconfig.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AdditionalExplanations/bin/Debug/netcoreapp3.1/AdditionalExplanations.runtimeconfig.dev.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AdditionalExplanations/bin/Debug/netcoreapp3.1/AdditionalExplanations.dll
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AdditionalExplanations/bin/Debug/netcoreapp3.1/AdditionalExplanations.pdb
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AdditionalExplanations/bin/Debug/netcoreapp3.1/Helper.dll
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AdditionalExplanations/bin/Debug/netcoreapp3.1/Helper.pdb
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AdditionalExplanations/obj/Debug/netcoreapp3.1/AdditionalExplanations.csproj.AssemblyReference.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AdditionalExplanations/obj/Debug/netcoreapp3.1/AdditionalExplanations.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AdditionalExplanations/obj/Debug/netcoreapp3.1/AdditionalExplanations.AssemblyInfoInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AdditionalExplanations/obj/Debug/netcoreapp3.1/AdditionalExplanations.AssemblyInfo.cs
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AdditionalExplanations/obj/Debug/netcoreapp3.1/AdditionalExplanations.csproj.CoreCompileInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AdditionalExplanations/obj/Debug/netcoreapp3.1/AdditionalExplanations.csproj.CopyComplete
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AdditionalExplanations/obj/Debug/netcoreapp3.1/AdditionalExplanations.dll
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AdditionalExplanations/obj/Debug/netcoreapp3.1/AdditionalExplanations.pdb
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AdditionalExplanations/obj/Debug/netcoreapp3.1/AdditionalExplanations.genruntimeconfig.cache

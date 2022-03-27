@@ -1,0 +1,13 @@
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/EncapsulationLesson/obj/Debug/netcoreapp3.1/EncapsulationLesson.csproj.AssemblyReference.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/EncapsulationLesson/obj/Debug/netcoreapp3.1/EncapsulationLesson.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/EncapsulationLesson/obj/Debug/netcoreapp3.1/EncapsulationLesson.AssemblyInfoInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/EncapsulationLesson/obj/Debug/netcoreapp3.1/EncapsulationLesson.AssemblyInfo.cs
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/EncapsulationLesson/obj/Debug/netcoreapp3.1/EncapsulationLesson.csproj.CoreCompileInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/EncapsulationLesson/bin/Debug/netcoreapp3.1/EncapsulationLesson.deps.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/EncapsulationLesson/bin/Debug/netcoreapp3.1/EncapsulationLesson.runtimeconfig.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/EncapsulationLesson/bin/Debug/netcoreapp3.1/EncapsulationLesson.runtimeconfig.dev.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/EncapsulationLesson/bin/Debug/netcoreapp3.1/EncapsulationLesson.dll
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/EncapsulationLesson/bin/Debug/netcoreapp3.1/EncapsulationLesson.pdb
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/EncapsulationLesson/obj/Debug/netcoreapp3.1/EncapsulationLesson.dll
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/EncapsulationLesson/obj/Debug/netcoreapp3.1/EncapsulationLesson.pdb
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/OOP/EncapsulationLesson/obj/Debug/netcoreapp3.1/EncapsulationLesson.genruntimeconfig.cache
