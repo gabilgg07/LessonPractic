@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{4011255B-9725-4EDC-93AF-F67B4F21DD1A}|Default">
   <MonoDevelop.Ide.ItemProperties.Tasks PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.PropertiesEncapsulation PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="CastingComplexTypes/Program.cs" Line="108" Column="1" />
+      <File FileName="CastingComplexTypes/Program.cs" Line="210" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
+            <Node name="OOP" expanded="True" />
             <Node name="CastingComplexTypes" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
@@ -32,6 +32,7 @@
     <String>OOP/EncapsulationLesson/EncapsulationLesson.csproj</String>
     <String>OOP/InheritenceLesson/InheritenceLesson.csproj</String>
     <String>OOP/PolymorphismLesson/PolymorphismLesson.csproj</String>
+    <String>PropertiesEncapsulation/PropertiesEncapsulation.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

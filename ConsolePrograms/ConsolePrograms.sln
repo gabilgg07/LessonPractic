@@ -37,6 +37,11 @@ Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "EnumType", "EnumType\EnumTy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastingComplexTypes", "CastingComplexTypes\CastingComplexTypes.csproj", "{4011255B-9725-4EDC-93AF-F67B4F21DD1A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{03BE050F-957F-4659-8A3A-1D97D1CC822D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -119,5 +124,6 @@ Global
 		{0649B614-1FF4-4066-AF2C-47DB9EF08E27} = {79E56076-8A91-4746-91FB-D9AD8E2AFB70}
 		{B8467DA1-164B-44EC-91C1-409E96724217} = {79E56076-8A91-4746-91FB-D9AD8E2AFB70}
 		{8ECC30C6-79F4-4B4A-B5A4-4CE59A623CCA} = {79E56076-8A91-4746-91FB-D9AD8E2AFB70}
+		{13556B02-D030-4B5B-A269-C95023F39C83} = {79E56076-8A91-4746-91FB-D9AD8E2AFB70}
 	EndGlobalSection
 EndGlobal
