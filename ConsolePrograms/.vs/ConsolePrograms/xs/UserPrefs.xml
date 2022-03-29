@@ -3,14 +3,8 @@
   <MonoDevelop.Ide.ItemProperties.PropertiesEncapsulation PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Helper/MathHelper.cs" Line="1" Column="1" />
-      <File FileName="Helper/DataHelper.cs" />
-      <File FileName="Tasks/Program.cs" Line="10" Column="49" />
-      <File FileName="Tasks/Classes/Quadrangular.cs" />
-      <File FileName="Tasks/Classes/Rectangular.cs" />
-      <File FileName="Tasks/Classes/Square.cs" />
-      <File FileName="Tasks/Classes/Rhomb.cs" Line="16" Column="75" />
-      <File FileName="Tasks/Classes/Trapeze.cs" />
+      <File FileName="Tasks/Program.cs" Line="9" Column="40" />
+      <File FileName="Helper/ConsoleHelper.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,7 +13,6 @@
             <Node name="OOP" expanded="True" />
             <Node name="Helper" expanded="True" />
             <Node name="Tasks" expanded="True">
-              <Node name="Classes" expanded="True" />
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
