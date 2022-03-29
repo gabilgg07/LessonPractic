@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/CastingComplexTypes/CastingComplexTypes.csproj": {}
+    "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/CastingComplexTypes/CastingComplexTypes.csproj": {}
   },
   "projects": {
-    "/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/CastingComplexTypes/CastingComplexTypes.csproj": {
+    "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/CastingComplexTypes/CastingComplexTypes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/CastingComplexTypes/CastingComplexTypes.csproj",
+        "projectUniqueName": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/CastingComplexTypes/CastingComplexTypes.csproj",
         "projectName": "CastingComplexTypes",
-        "projectPath": "/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/CastingComplexTypes/CastingComplexTypes.csproj",
+        "projectPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/CastingComplexTypes/CastingComplexTypes.csproj",
         "packagesPath": "/Users/macbook/.nuget/packages/",
-        "outputPath": "/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/CastingComplexTypes/obj/",
+        "outputPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/CastingComplexTypes/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/macbook/.config/NuGet/NuGet.Config"

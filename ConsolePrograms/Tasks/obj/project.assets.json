@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Tasks/Tasks.csproj",
+      "projectUniqueName": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/Tasks/Tasks.csproj",
       "projectName": "Tasks",
-      "projectPath": "/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Tasks/Tasks.csproj",
+      "projectPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/Tasks/Tasks.csproj",
       "packagesPath": "/Users/macbook/.nuget/packages/",
-      "outputPath": "/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Tasks/obj/",
+      "outputPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/Tasks/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/macbook/.config/NuGet/NuGet.Config"
@@ -51,8 +51,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Helper/Helper.csproj": {
-              "projectPath": "/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Helper/Helper.csproj"
+            "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/Helper/Helper.csproj": {
+              "projectPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/Helper/Helper.csproj"
             }
           }
         }

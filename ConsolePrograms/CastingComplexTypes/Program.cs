@@ -207,7 +207,7 @@ namespace CastingComplexTypes
 
             Console.WriteLine($" >> amountUsd + priceUsd => ({amountUsd} + {priceUsd})\n = ({amountUsd + priceUsd})");
 
-            Console.WriteLine();
+            Console.WriteLine("----------------------------------------------------");
 
             Usd usd = (Usd)5.88;
 
