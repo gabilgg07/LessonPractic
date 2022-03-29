@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/Helper/Helper.csproj": {}
+    "/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Helper/Helper.csproj": {}
   },
   "projects": {
-    "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/Helper/Helper.csproj": {
+    "/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Helper/Helper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/Helper/Helper.csproj",
+        "projectUniqueName": "/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Helper/Helper.csproj",
         "projectName": "Helper",
-        "projectPath": "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/Helper/Helper.csproj",
+        "projectPath": "/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Helper/Helper.csproj",
         "packagesPath": "/Users/macbook/.nuget/packages/",
-        "outputPath": "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/Helper/obj/",
+        "outputPath": "/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Helper/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/macbook/.config/NuGet/NuGet.Config"

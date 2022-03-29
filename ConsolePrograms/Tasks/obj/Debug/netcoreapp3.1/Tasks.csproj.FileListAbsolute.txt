@@ -14,3 +14,19 @@
 /Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/Tasks/bin/Debug/netcoreapp3.1/Helper.dll
 /Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/Tasks/bin/Debug/netcoreapp3.1/Helper.pdb
 /Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/Tasks/obj/Debug/netcoreapp3.1/Tasks.csproj.CopyComplete
+/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Tasks/bin/Debug/netcoreapp3.1/Tasks.deps.json
+/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Tasks/bin/Debug/netcoreapp3.1/Tasks.runtimeconfig.json
+/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Tasks/bin/Debug/netcoreapp3.1/Tasks.runtimeconfig.dev.json
+/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Tasks/bin/Debug/netcoreapp3.1/Tasks.dll
+/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Tasks/bin/Debug/netcoreapp3.1/Tasks.pdb
+/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Tasks/bin/Debug/netcoreapp3.1/Helper.dll
+/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Tasks/bin/Debug/netcoreapp3.1/Helper.pdb
+/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Tasks/obj/Debug/netcoreapp3.1/Tasks.csproj.AssemblyReference.cache
+/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Tasks/obj/Debug/netcoreapp3.1/Tasks.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Tasks/obj/Debug/netcoreapp3.1/Tasks.AssemblyInfoInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Tasks/obj/Debug/netcoreapp3.1/Tasks.AssemblyInfo.cs
+/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Tasks/obj/Debug/netcoreapp3.1/Tasks.csproj.CoreCompileInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Tasks/obj/Debug/netcoreapp3.1/Tasks.csproj.CopyComplete
+/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Tasks/obj/Debug/netcoreapp3.1/Tasks.dll
+/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Tasks/obj/Debug/netcoreapp3.1/Tasks.pdb
+/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/Tasks/obj/Debug/netcoreapp3.1/Tasks.genruntimeconfig.cache

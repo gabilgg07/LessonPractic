@@ -1,33 +1,24 @@
-﻿<Properties StartupConfiguration="{D33C8038-F4C6-4C1E-BA8F-F4E2E08B7D5A}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{4011255B-9725-4EDC-93AF-F67B4F21DD1A}|Default">
   <MonoDevelop.Ide.ItemProperties.Tasks PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.PropertiesEncapsulation PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Tasks/Classes/Rhomb.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Helper/MathHelper.cs" Line="1" Column="1" />
-      <File FileName="Helper/DataHelper.cs" />
-      <File FileName="Tasks/Program.cs" />
-      <File FileName="Tasks/Classes/Quadrangular.cs" />
-      <File FileName="Tasks/Classes/Rectangular.cs" />
-      <File FileName="Tasks/Classes/Square.cs" />
-      <File FileName="Tasks/Classes/Rhomb.cs" Line="16" Column="75" />
-      <File FileName="Tasks/Classes/Trapeze.cs" />
+      <File FileName="CastingComplexTypes/Program.cs" Line="210" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
             <Node name="OOP" expanded="True" />
-            <Node name="Helper" expanded="True" />
-            <Node name="Tasks" expanded="True">
-              <Node name="Classes" expanded="True">
-                <Node name="Rhomb.cs" selected="True" />
-              </Node>
+            <Node name="Solution Items" expanded="True" />
+            <Node name="CastingComplexTypes" expanded="True">
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CastingComplexTypes PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>
     <String>OOP/EncapsulationLesson/InheritanceLesson/InheritanceLesson.csproj</String>
@@ -42,6 +33,7 @@
     <String>OOP/EncapsulationLesson/EncapsulationLesson.csproj</String>
     <String>OOP/InheritenceLesson/InheritenceLesson.csproj</String>
     <String>OOP/PolymorphismLesson/PolymorphismLesson.csproj</String>
+    <String>PropertiesEncapsulation/PropertiesEncapsulation.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

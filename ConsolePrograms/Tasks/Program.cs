@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using Helper;
 
 namespace Tasks
@@ -7,9 +8,55 @@ namespace Tasks
     {
         static void Main(string[] args)
         {
-
+            ConsoleHelper.SetDefaults();
 
             Console.ReadKey();
+        }
+
+        private static void Task3()
+        {
+            // 1-den 1000-e kimi ixtiyari(random) bir eded secilir.
+            // Istifadeciden bu ededi tapmasini isteyirik.
+            // Her defesinde istifdeci ededi tapanadek
+            // novbeti daxil edeceyi ededin indi daxil etdiyinden 
+            // boyuk ve ya kicik olmasini deyirik.
+
+            int counter = 1;
+            Random random = new Random();
+
+            Stopwatch sw = new Stopwatch();
+
+            int randomNum = random.Next(1, 1000);
+            sw.Start();
+        lblBetween:
+            Console.WriteLine(" 1 və 1000 ədədləri arasından ixtiyari bir ədəd seçildi.");
+            Console.Write(" Bu ədədi tapmaq üçün, ");
+        lblGetNumAgain:
+            int num = ConsoleHelper.GetIntNumFromConsole(" ədəd daxil edin: ", "tam ədəd deyil, yenidən cəhd edin.. ");
+            if (num < 1 || num > 999)
+            {
+                Console.WriteLine(" seçdiyiniz ədəd verilmiş aralıqda deyil, yenidən cəhd edin.. ");
+                counter++;
+                goto lblBetween;
+            }
+            else if (num < randomNum)
+            {
+                Console.Write(" Böyük ");
+                counter++;
+                goto lblGetNumAgain;
+            }
+            else if (num > randomNum)
+            {
+                Console.Write(" Kiçik ");
+                counter++;
+                goto lblGetNumAgain;
+            }
+            else
+            {
+                sw.Stop();
+                Console.WriteLine($"{counter}{DataHelper.ForSuffixOfNumberForAZ(counter)} cəhddə {sw.ElapsedMilliseconds / 1000} saniyəyə {randomNum} ədədini tapdınız.");
+            }
+
         }
 
         private static void EdedSadedirmi()

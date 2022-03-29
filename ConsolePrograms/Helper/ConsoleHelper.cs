@@ -58,6 +58,21 @@ namespace Helper
             return num;
         }
 
+        public static int GetIntNumFromConsole(string message = "\n Write a integer number: ", string errorMessge = "is not a integer number, try again.. ")
+        {
+        l1:
+            Console.Write(message);
+            string numStr = Console.ReadLine();
+            int num;
+            if (!int.TryParse(numStr, out num))
+            {
+                Console.WriteLine($"\n>> {numStr} {errorMessge}");
+                goto l1;
+            }
+
+            return num;
+        }
+
 
         /// <summary>
         /// Get byte number from console.

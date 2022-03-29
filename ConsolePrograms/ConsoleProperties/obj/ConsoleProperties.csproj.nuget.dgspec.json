@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/ConsoleProperties/ConsoleProperties.csproj": {}
+    "/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/ConsoleProperties/ConsoleProperties.csproj": {}
   },
   "projects": {
-    "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/ConsoleProperties/ConsoleProperties.csproj": {
+    "/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/ConsoleProperties/ConsoleProperties.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/ConsoleProperties/ConsoleProperties.csproj",
+        "projectUniqueName": "/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/ConsoleProperties/ConsoleProperties.csproj",
         "projectName": "ConsoleProperties",
-        "projectPath": "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/ConsoleProperties/ConsoleProperties.csproj",
+        "projectPath": "/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/ConsoleProperties/ConsoleProperties.csproj",
         "packagesPath": "/Users/macbook/.nuget/packages/",
-        "outputPath": "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/ConsoleProperties/obj/",
+        "outputPath": "/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/ConsoleProperties/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/macbook/.config/NuGet/NuGet.Config"
