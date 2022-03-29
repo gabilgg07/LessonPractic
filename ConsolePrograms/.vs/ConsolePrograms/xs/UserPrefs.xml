@@ -1,18 +1,15 @@
-﻿<Properties StartupConfiguration="{D33C8038-F4C6-4C1E-BA8F-F4E2E08B7D5A}|Default">
+﻿<Properties StartupConfiguration="{4011255B-9725-4EDC-93AF-F67B4F21DD1A}|Default">
   <MonoDevelop.Ide.ItemProperties.Tasks PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.PropertiesEncapsulation PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Tasks/Program.cs" Line="9" Column="40" />
-      <File FileName="Helper/ConsoleHelper.cs" />
+      <File FileName="CastingComplexTypes/Program.cs" Line="108" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
-            <Node name="OOP" expanded="True" />
-            <Node name="Helper" expanded="True" />
-            <Node name="Tasks" expanded="True">
+            <Node name="CastingComplexTypes" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -20,6 +17,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CastingComplexTypes PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>
     <String>OOP/EncapsulationLesson/InheritanceLesson/InheritanceLesson.csproj</String>
