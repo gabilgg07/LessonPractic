@@ -1,18 +1,18 @@
-﻿<Properties StartupConfiguration="{4011255B-9725-4EDC-93AF-F67B4F21DD1A}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{4011255B-9725-4EDC-93AF-F67B4F21DD1A}|Default">
   <MonoDevelop.Ide.ItemProperties.Tasks PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="CastingComplexTypes/Program.cs" Line="210" Column="33" />
+      <File FileName="CastingComplexTypes/Program.cs" Line="210" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
             <Node name="OOP" expanded="True" />
-            <Node name="Solution Items" expanded="True">
-              <Node name="/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/.editorconfig" selected="True" />
+            <Node name="Solution Items" expanded="True" />
+            <Node name="CastingComplexTypes" expanded="True">
+              <Node name="Program.cs" selected="True" />
             </Node>
-            <Node name="CastingComplexTypes" expanded="True" />
           </Node>
         </State>
       </Pad>
