@@ -8,7 +8,10 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
-            <Node name="OOP" expanded="True" selected="True" />
+            <Node name="OOP" expanded="True" />
+            <Node name="Solution Items" expanded="True">
+              <Node name="/Volumes/MySSD/01. Codes/01. VS/04. VS_With_git/ConsolePrograms/.editorconfig" selected="True" />
+            </Node>
             <Node name="CastingComplexTypes" expanded="True" />
           </Node>
         </State>
