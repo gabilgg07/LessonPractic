@@ -66,7 +66,8 @@ namespace Tasks
             int counter = 2;
 
             bool result = false;
-            Console.WriteLine(Math.Pow(num, 0.5));
+            Console.WriteLine(Math.Pow(num, 0.5)); // num ustu 1/2 (2-de 1)
+            Console.WriteLine(Math.Sqrt(num)); // kvadrat kokalti
 
             while (Math.Pow(num, 0.5) > counter)
             {

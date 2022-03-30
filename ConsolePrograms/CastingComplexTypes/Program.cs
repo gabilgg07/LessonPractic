@@ -7,95 +7,15 @@ namespace CastingComplexTypes
         static void Main(string[] args)
         {
 
+            Console.ReadKey();
+        }
 
-            Eagle eagle = new Eagle();
-
-            eagle.CanSound = true;
-            eagle.CanWalk = true;
-            eagle.CanFly = true;
-
-            Balina balina = new Balina();
-
-            balina.CanSound = true;
-            balina.CanSwim = true;
-
-            // >> iki ferqli classi bir birine
-            // >> ne implicit, ne de explicit convertion etmek olmur
-
-            //Eagle copyOfBalinaToEagle = (Eagle)balina; => error
-
-            // >> Lakin explicit operatordan istifade edilibse, olur:
-
-            Balina copyOfEagleToBalina = (Balina)eagle;
-
-            // >> Her ikisini de parent class-a cast ede bilirik:
-
-            Animal animal = new Animal();
-
-            animal = balina;
-            animal = eagle;
-
-            // >> Nece ki, int-i implicit convertion-la
-            // double cast etmek mumkundur:
-            int n = 7;
-            double d = n;
-
-            // >> Double-i ise explicit convertion-la
-            // int-e cast etdikde itkimiz olur:
-            d = 3.5;
-
-            n = (int)d;
-
-            Console.WriteLine($" >> Double d = {d}, Int n = {n}, " +
-                $"tam hisse qalir, qaliq yoxa cixir.");
-
-            // >> Parentinin icinde Eagle type oldugundan
-            // Balina type-na casting ola bilmir. 
-            //Balina copyAnimalToBalina = (Balina)animal;
-
-            Console.WriteLine("-------------------------------------");
-            //------------------------------------------------------
-
-            double amount = 34.52;
-
-            Azn amountAzn = new Azn();
-
-            amountAzn = (Azn)amount; // >> explicit convertion
-
-            // >> Azn-in double-a implicit castingi olduguna gore
-            // Console.WriteLine onu double kimi qebul edir.
-            // Ona gore qarsisindaa .toString() methodu yazmaliyiq:
-            Console.WriteLine(amountAzn.ToString());
-
-            amount = amountAzn; // implicit convertion
-
-            Console.WriteLine(" >> " + amount);
-
-            Console.WriteLine("======================================");
-            //=======================================================
-
-            // >> Azn-de double-a implicit convertion var deye onu muqaise etdikde,
-            // proqram double-a cevirib(double kimi) muqaise edir:
-
-            Azn price = (Azn)6.5;
-
-            Console.WriteLine($" >> amountAzn = {amountAzn}; price = {price}");
-
-            if (amountAzn >= price)
-            {
-                Console.WriteLine(" amountAzn >= price >> Azn-le almaq mumkundur.");
-            }
-            else
-            {
-                Console.WriteLine(" amountAzn >= price >> Azn-le almaq mumkun deyil!");
-            }
-
-            Console.WriteLine("---------------------------------------------------");
-
+        private static void UsdTestings()
+        {
             // >> Yazdigimiz type-da operatorlar vasitesi ile
             // muqaise olunma qabiliyyeti de elave etmek olur:
 
-            Usd amountUsd = (Usd)6.75; 
+            Usd amountUsd = (Usd)6.75;
             Usd priceUsd = (Usd)3.5;
 
             Console.WriteLine($" >> amountUsd = {amountUsd}; priceUsd = {priceUsd}");
@@ -197,8 +117,8 @@ namespace CastingComplexTypes
 
             Console.WriteLine("----------------------------------------------------");
 
-            Console.WriteLine($" >> amountUsd - priceUsd => ({amountUsd} - {priceUsd})\n = ({amountUsd-priceUsd})");
-            Console.WriteLine($" >> priceUsd - amountUsd => ({priceUsd} - {amountUsd})\n = ({priceUsd-amountUsd}");
+            Console.WriteLine($" >> amountUsd - priceUsd => ({amountUsd} - {priceUsd})\n = ({amountUsd - priceUsd})");
+            Console.WriteLine($" >> priceUsd - amountUsd => ({priceUsd} - {amountUsd})\n = ({priceUsd - amountUsd}");
 
 
             Console.WriteLine("----------------------------------------------------");
@@ -214,8 +134,102 @@ namespace CastingComplexTypes
             Usd diff = priceUsd - amountUsd;
 
             Console.WriteLine($" >> diff + usd => ({diff} + {usd})\n = ({diff + usd}");
+        }
 
-            Console.ReadKey();
+        private static void AznTestings()
+        {
+            double amount = 34.52;
+
+            Azn amountAzn = new Azn();
+
+            amountAzn = (Azn)amount; // >> explicit convertion
+
+            // >> Azn-in double-a implicit castingi olduguna gore
+            // Console.WriteLine onu double kimi qebul edir.
+            // Ona gore qarsisindaa .toString() methodu yazmaliyiq:
+            Console.WriteLine(amountAzn.ToString());
+
+            amount = amountAzn; // implicit convertion
+
+            Console.WriteLine(" >> " + amount);
+
+            Console.WriteLine("======================================");
+            //=======================================================
+
+            // >> Azn-de double-a implicit convertion var deye onu muqaise etdikde,
+            // proqram double-a cevirib(double kimi) muqaise edir:
+
+            Azn price = (Azn)6.5;
+
+            Console.WriteLine($" >> amountAzn = {amountAzn}; price = {price}");
+
+            if (amountAzn >= price)
+            {
+                Console.WriteLine(" amountAzn >= price >> Azn-le almaq mumkundur.");
+            }
+            else
+            {
+                Console.WriteLine(" amountAzn >= price >> Azn-le almaq mumkun deyil!");
+            }
+
+            Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+
+            Azn azn = (Azn)2.66;
+
+            double dbl = azn;
+
+            Console.WriteLine(dbl);
+        }
+
+        private static void AnimalsTesting()
+        {
+            Eagle eagle = new Eagle();
+
+            eagle.CanSound = true;
+            eagle.CanWalk = true;
+            eagle.CanFly = true;
+
+            Balina balina = new Balina();
+
+            balina.CanSound = true;
+            balina.CanSwim = true;
+
+            // >> iki ferqli classi bir birine
+            // >> ne implicit, ne de explicit convertion etmek olmur
+
+            //Eagle copyOfBalinaToEagle = (Eagle)balina; => error
+
+            // >> Lakin explicit operatordan istifade edilibse, olur:
+
+            Balina copyOfEagleToBalina = (Balina)eagle;
+
+            // >> Her ikisini de parent class-a cast ede bilirik:
+
+            Animal animal = new Animal();
+
+            animal = balina;
+            animal = eagle;
+
+            // >> Nece ki, int-i implicit convertion-la
+            // double cast etmek mumkundur:
+            int n = 7;
+            double d = n;
+
+            // >> Double-i ise explicit convertion-la
+            // int-e cast etdikde itkimiz olur:
+            d = 3.5;
+
+            n = (int)d;
+
+            Console.WriteLine($" >> Double d = {d}, Int n = {n}, " +
+                $"tam hisse qalir, qaliq yoxa cixir.");
+
+            // >> Parentinin icinde Eagle type oldugundan
+            // Balina type-na casting ola bilmir. 
+            //Balina copyAnimalToBalina = (Balina)animal;
+
+            Console.WriteLine("-------------------------------------");
+            //------------------------------------------------------
         }
     }
 
@@ -269,7 +283,7 @@ namespace CastingComplexTypes
             var azn = new Azn();
 
             azn.scale = (int)Math.Floor(value);
-            azn.precission = (byte)((value * 100) % 100);
+            azn.precission = (byte)(Math.Round((value * 100),2) % 100);
 
             return azn;
         }
@@ -306,7 +320,10 @@ namespace CastingComplexTypes
                 usd.coin = (int)Math.Ceiling(value);
                 value *= (-1);
             }
-            usd.cent = (byte)((value * 100) % 100);
+            //usd.cent = (byte)((value * 100) % 100);
+
+            // Mellimden
+            usd.cent = (byte)(Math.Round((value * 100),2) % 100);
 
             return usd;
         }
@@ -374,21 +391,13 @@ namespace CastingComplexTypes
             double sum;
 
             if (left.coin < 0 && right.coin >= 0)
-            {
                 sum = (left.coin * 100 - left.cent + right.coin * 100 + right.cent) / 100d;
-            }
             else if (left.coin >=0 && right.coin < 0)
-            {
                 sum = (left.coin * 100 + left.cent + right.coin * 100 - right.cent) / 100d;
-            }
             else if (left.coin < 0 && right.coin < 0)
-            {
                 sum = (left.coin * 100 - left.cent + right.coin * 100 - right.cent) / 100d;
-            }
             else
-            {
                 sum = (left.coin * 100 + left.cent + right.coin * 100 + right.cent) / 100d;
-            }
 
             return (Usd)sum;
         }
