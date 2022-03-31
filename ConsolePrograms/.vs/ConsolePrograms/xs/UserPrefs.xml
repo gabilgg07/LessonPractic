@@ -1,14 +1,16 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{08B5F742-89F1-4F61-A0DC-0FBCBFDADA81}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{D33C8038-F4C6-4C1E-BA8F-F4E2E08B7D5A}|Default">
   <MonoDevelop.Ide.ItemProperties.Tasks PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.NullishCoalescingOperators FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NullishCoalescingOperators/Program.cs">
     <Files>
-      <File FileName="IsAndAs_SafeWayCasting/Program.cs" Line="80" Column="14" />
+      <File FileName="IsAndAs_SafeWayCasting/Program.cs" Line="184" Column="1" />
+      <File FileName="NullishCoalescingOperators/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
-            <Node name="IsAndAs_SafeWayCasting" expanded="True">
+            <Node name="NullishCoalescingOperators" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -17,7 +19,6 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.IsAndAs__SafeWayCasting PreferredExecutionTarget="MonoDevelop.Default" />
   <DisabledProjects>
     <String>OOP/EncapsulationLesson/InheritanceLesson/InheritanceLesson.csproj</String>
     <String>AccessModifiers/AccessModifiers.csproj</String>
@@ -33,6 +34,7 @@
     <String>OOP/PolymorphismLesson/PolymorphismLesson.csproj</String>
     <String>PropertiesEncapsulation/PropertiesEncapsulation.csproj</String>
     <String>CastingComplexTypes/CastingComplexTypes.csproj</String>
+    <String>IsAndAs_SafeWayCasting/IsAndAs_SafeWayCasting.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
