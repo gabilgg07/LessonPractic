@@ -1,16 +1,15 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{E01C9C31-583A-40BD-AAAD-BCC6E277168A}|Default">
-  <MonoDevelop.Ide.ItemProperties.Tasks PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.NullishCoalescingOperators PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NullishCoalescingOperators/Program.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{CCDF76DA-9AEB-4297-BBB3-3D4571410A29}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StructType/Program.cs">
     <Files>
-      <File FileName="IsAndAs_SafeWayCasting/Program.cs" Line="184" Column="1" />
-      <File FileName="NullishCoalescingOperators/Program.cs" Line="18" Column="31" />
+      <File FileName="SealedClass/Program.cs" Line="11" Column="17" />
+      <File FileName="StructType/Program.cs" Line="101" Column="57" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
-            <Node name="NullishCoalescingOperators" expanded="True">
+            <Node name="SealedClass" expanded="True" />
+            <Node name="StructType" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -19,6 +18,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SealedClass FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <DisabledProjects>
     <String>OOP/EncapsulationLesson/InheritanceLesson/InheritanceLesson.csproj</String>
     <String>AccessModifiers/AccessModifiers.csproj</String>
@@ -27,7 +27,6 @@
     <String>AddPersonToArray/AddPersonToArray.csproj</String>
     <String>CodeOnCalendar/CodeOnCalendar.csproj</String>
     <String>EnumType/EnumType.csproj</String>
-    <String>StructType/StructType.csproj</String>
     <String>OOP/AbstractionLesson/AbstractionLesson.csproj</String>
     <String>OOP/EncapsulationLesson/EncapsulationLesson.csproj</String>
     <String>OOP/InheritenceLesson/InheritenceLesson.csproj</String>
@@ -35,6 +34,9 @@
     <String>PropertiesEncapsulation/PropertiesEncapsulation.csproj</String>
     <String>CastingComplexTypes/CastingComplexTypes.csproj</String>
     <String>IsAndAs_SafeWayCasting/IsAndAs_SafeWayCasting.csproj</String>
+    <String>NullishCoalescingOperators/NullishCoalescingOperators.csproj</String>
+    <String>ConsoleProperties/ConsoleProperties.csproj</String>
+    <String>Tasks/Tasks.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -11,3 +11,16 @@
 /Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/StructType/obj/Debug/netcoreapp3.1/StructType.dll
 /Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/StructType/obj/Debug/netcoreapp3.1/StructType.pdb
 /Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/StructType/obj/Debug/netcoreapp3.1/StructType.genruntimeconfig.cache
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/StructType/bin/Debug/netcoreapp3.1/StructType.deps.json
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/StructType/bin/Debug/netcoreapp3.1/StructType.runtimeconfig.json
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/StructType/bin/Debug/netcoreapp3.1/StructType.runtimeconfig.dev.json
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/StructType/bin/Debug/netcoreapp3.1/StructType.dll
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/StructType/bin/Debug/netcoreapp3.1/StructType.pdb
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/StructType/obj/Debug/netcoreapp3.1/StructType.csproj.AssemblyReference.cache
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/StructType/obj/Debug/netcoreapp3.1/StructType.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/StructType/obj/Debug/netcoreapp3.1/StructType.AssemblyInfoInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/StructType/obj/Debug/netcoreapp3.1/StructType.AssemblyInfo.cs
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/StructType/obj/Debug/netcoreapp3.1/StructType.csproj.CoreCompileInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/StructType/obj/Debug/netcoreapp3.1/StructType.dll
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/StructType/obj/Debug/netcoreapp3.1/StructType.pdb
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/StructType/obj/Debug/netcoreapp3.1/StructType.genruntimeconfig.cache
