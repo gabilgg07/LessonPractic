@@ -27,25 +27,32 @@ namespace StructType
 
             #region Difference Class And Struct
 
-            // Nullable ola bilmesi:
-            StructsDiff? structsDiff = null;
-
-            Console.WriteLine($"Null Struct = >>{structsDiff}<<");
-
-            // ----------------------------------------
-
+            // 3:
             StructsDiff a = new StructsDiff(20, 20);
             StructsDiff b = a;
             a.x = 100;
 
             Console.WriteLine($"Struct Type: b.x = {b.x}");
 
+            // 4:
+            StructsDiff c;
+            c.x = 50;
+
+            // c2, c3: 
             ClassesDiff cA = new ClassesDiff(20, 20);
             ClassesDiff cB = cA;
 
             cA.x = 100;
 
             Console.WriteLine($"Class Type: cB.x = {cB.x}");
+
+            // 13, 14: Nullable ola bilmesi:
+            StructsDiff? structsDiff = null;
+
+            Console.WriteLine($"Null Struct = >>{structsDiff}<<");
+
+            // ----------------------------------------
+
 
             #endregion
 
@@ -91,65 +98,128 @@ namespace StructType
 
     #region Difference Class And Struct
 
+   
+    //struct StructsDiff
+    // 5:
+    //struct StructsDiff //: TestInheritedFromClass => error
+    //struct StructsDiff //: TestInheritedFromStruct => error
 
-    struct StructsDiff
+    // 8: 
+    //abstract struct StructsDiff => error
+
+    // 12: 
+     struct StructsDiff: IInterfaceForStruct
     {
-        // Stuct-in default constructor-u ve ya destructoru olmur.
-        // Constructor yazanda mutleq parametrlerle yazilmalidir.
+        // 1. Stuct-in default constructor-u ve ya destructoru olmur.
+        // 2. Constructor yazanda mutleq parametrlerle yazilmalidir.
 
-        // Value type-dir ve menimsedilende kopyalanir.
+        // 3. Value type-dir ve menimsedilende kopyalanir.
 
-        // new operatorundan istifade etmeden de obyekt yaratmaq olur.
+        // 4. new operatorundan istifade etmeden de obyekt yaratmaq olur.
 
-        // basqa struct ve ya class-dan hec vaxt miras almir.
-        // ve ya class-lara da miras vermir.
-        // Butun sruct-lar System.Object-den miras almis
+        // 5. basqa struct ve ya class-dan hec vaxt miras almir.
+        // 6. ve ya class-lara da miras vermir.
+
+        // 7. Butun sruct-lar System.Object-den miras almis
         // System.ValueType-dan miras alirlar.
 
-        // Struct tipler abstrakt ol bilmirler
+        // 8. Struct tipler abstrakt ola bilmirler
         // ve hemise birbasa sealed olurlar.
 
-        // Memberleri protected ve ya protected internal olmurlar.
+        // 9. Memberleri protected ve ya protected internal olmurlar.
 
-        // Function memberleri astract ve ya virtual ola bilmirler,
-        // override metodlar ise ancaq System.ValueType-indan gelen methodlardir.
+        // 10. Function memberleri abstract ve ya virtual ola bilmirler,
+        // 11. override metodlar ise ancaq System.ValueType-indan gelen methodlardir.
 
-        // Interfaceler istifade ede biler.
+        // 12. Interfaceler istifade ede biler.
 
-        // Nullable olaa bilir, yeni ? isaresi qoymaqla sonuna,
-        // nullable olduqdan sonra null menimsetmek olur.
+        // 13. Nullable ola bilir, yeni ? isaresi qoymaqla sonuna,
+        // 14. nullable olduqdan sonra null menimsetmek olur.
 
-        // Mentiqi olaraq tek bir deyeri temsil etmelidir.(int, double ve s. kimi).
-        // Deyisilmez olmalidir.
-        // tez-tez boxin, unboxing edilmemelidir.
+        // Istifade meqsedleri:
+        // a. Mentiqi olaraq tek bir deyeri temsil etmelidir.(int, double ve s. kimi).
+        // b. Deyisilmez olmalidir.
+        // c. tez-tez boxin, unboxing edilmemelidir.
 
         public int x, y;
 
-        // constractute ancaq parametrle:
-         public StructsDiff(int x, int y)
+        // 9: 
+        //protected int x, y;
+        //protected internal int x, y;
+
+        // 10:
+
+        //abstract public void StructFuction() => error
+        //{
+
+        //}
+
+        //virtual public void StructFuction()
+        //{
+
+        //}
+
+        public void StructFuction()
+        {
+
+        }
+
+        // 11:
+
+        public override string ToString()
+        {
+            return base.ToString();
+        }
+
+
+
+        // 1:
+        //public StructsDiff()
+        //{
+
+        //}
+
+
+        // 2: constructor ancaq parametrle:
+        public StructsDiff(int x, int y)
         {
             this.x = x;
             this.y = y;
         }
     }
 
-    class ClassesDiff
+    struct TestInheritedFromStruct
     {
-        // Class-in default constructor-u ve ya destructoru olur.
 
-        // Reference type-dir ve menimsedilende eyni referansdan istifade edir.
+    }
 
-        // obyekt yaradanda(instance) new operatorundan istifade olunmalidir.
+    // 6: 
+    //class ClassesDiff //:ForTestInheritedFromStruct => error
+    // c4:
+    class ClassesDiff : TestInheritedFromClass
+    {
+        // c1: Class-in default constructor-u ve ya destructoru olur.
 
-        // basqa class-lardan miras ala bilir.
-        // ve basqa class-lara da miras vere bilir.
+        // c2: Reference type-dir ve menimsedilende eyni referansdan istifade edir.
 
-        // Abstract ola bilirler,
-        // evveline sealed artirilarsa sealed olurlar.
+        // c3: obyekt yaradanda(instance) new operatorundan istifade olunmalidir.
+
+        // c4: basqa class-lardan miras ala bilir.
+        // c5: ve basqa class-lara da miras vere bilir.
+
+        // c6: Abstract ola bilirler,
+        // c7: evveline sealed artirilarsa sealed olurlar.
 
         public int x, y;
 
+        // c1: constructor
         public ClassesDiff()
+        {
+
+        }
+
+        // c1: destructor
+        ~ClassesDiff()
         {
 
         }
@@ -161,6 +231,29 @@ namespace StructType
         }
     }
 
+    // c6: 
+
+    abstract class TestInheritedFromClass
+    {
+
+    }
+
+    // c5:
+    class TestInheritedForClass : ClassesDiff
+    {
+
+    }
+
+    interface IInterfaceForStruct
+    {
+
+    }
+
+    // c7: 
+    sealed class ClassWithSealed
+    {
+
+    }
 
     #endregion
 
