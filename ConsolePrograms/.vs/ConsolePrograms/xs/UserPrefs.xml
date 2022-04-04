@@ -1,17 +1,13 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{CCDF76DA-9AEB-4297-BBB3-3D4571410A29}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="StructType/Program.cs">
-    <Files>
-      <File FileName="SealedClass/Program.cs" Line="36" Column="27" />
-      <File FileName="StructType/Program.cs" Line="1" Column="1" />
-    </Files>
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{3113C681-17FD-4DC5-9079-3C7D09531CDA}|Default">
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
-            <Node name="SealedClass" expanded="True" />
-            <Node name="StructType" expanded="True">
+            <Node name="BoxingUnboxing" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
+            <Node name="SealedClass" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -44,4 +40,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.BoxingUnboxing PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

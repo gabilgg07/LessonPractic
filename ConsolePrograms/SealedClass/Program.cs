@@ -16,8 +16,9 @@ namespace SealedClass
     sealed class SealedClass
     {
         // Sealed class-dan miras almaq olmur.
+
         // Bunun proqramimizi, mehsulumuzu qorumaq ucun edirik.
-        // bezen bele mohurlemek lazim olur ki, kimse classimizdan(modelimizden)
+        // Bezen bele mohurlemek lazim olur ki, kimse classimizdan(modelimizden)
         // miras alib inkisaf etdirib satisa cixarib,
         // bizim satisimizin qarsisina kecmesin.
 
