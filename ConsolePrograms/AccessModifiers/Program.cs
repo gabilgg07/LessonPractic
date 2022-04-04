@@ -145,10 +145,9 @@ namespace AccessModifiers
             //publicClass.ProtectedPrivateMethodInPC();
 
             // Diger proqramin classindan miras goturmus classin
-            // miras goturduyu protected internal methodunun
+            // miras goturduyu claassdaki protected internal methodunun
             // protected private methodunu cagirmasi methodunu
             // ozunde cagirmasi ile:
-
 
             cFOAC.CallProtectedPrivateMethodFromOtherAssemblyParentClass();
 
