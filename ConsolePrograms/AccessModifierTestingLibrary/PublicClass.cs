@@ -17,5 +17,21 @@ namespace AccessModifierTestingLibrary
         {
             Console.WriteLine("\nI am Public Method In Public Class");
         }
+
+        protected internal void ProtectedInternalMethodInPC()
+        {
+            Console.WriteLine(" I am Protected internal Method In Public Class");
+        }
+
+        protected private void ProtectedPrivateMethodInPC()
+        {
+            Console.WriteLine(" I am Protected private Method In Public Class");
+        }
+
+        protected internal void CallMyProtectedPrivateMethodInPC()
+        {
+            Console.WriteLine(" I call my Protected private Method In Public Class: ");
+            ProtectedPrivateMethodInPC();
+        }
     }
 }

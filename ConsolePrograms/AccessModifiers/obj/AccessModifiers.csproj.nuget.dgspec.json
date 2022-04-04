@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AccessModifiers/AccessModifiers.csproj": {}
+    "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifiers/AccessModifiers.csproj": {}
   },
   "projects": {
-    "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AccessModifiers/AccessModifiers.csproj": {
+    "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifiers/AccessModifiers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AccessModifiers/AccessModifiers.csproj",
+        "projectUniqueName": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifiers/AccessModifiers.csproj",
         "projectName": "AccessModifiers",
-        "projectPath": "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AccessModifiers/AccessModifiers.csproj",
+        "projectPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifiers/AccessModifiers.csproj",
         "packagesPath": "/Users/macbook/.nuget/packages/",
-        "outputPath": "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AccessModifiers/obj/",
+        "outputPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifiers/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/macbook/.config/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AccessModifierTestingLibrary/AccessModifierTestingLibrary.csproj": {
-                "projectPath": "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AccessModifierTestingLibrary/AccessModifierTestingLibrary.csproj"
+              "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifierTestingLibrary/AccessModifierTestingLibrary.csproj": {
+                "projectPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifierTestingLibrary/AccessModifierTestingLibrary.csproj"
               }
             }
           }
@@ -60,14 +60,14 @@
         }
       }
     },
-    "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AccessModifierTestingLibrary/AccessModifierTestingLibrary.csproj": {
+    "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifierTestingLibrary/AccessModifierTestingLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AccessModifierTestingLibrary/AccessModifierTestingLibrary.csproj",
+        "projectUniqueName": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifierTestingLibrary/AccessModifierTestingLibrary.csproj",
         "projectName": "AccessModifierTestingLibrary",
-        "projectPath": "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AccessModifierTestingLibrary/AccessModifierTestingLibrary.csproj",
+        "projectPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifierTestingLibrary/AccessModifierTestingLibrary.csproj",
         "packagesPath": "/Users/macbook/.nuget/packages/",
-        "outputPath": "/Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AccessModifierTestingLibrary/obj/",
+        "outputPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifierTestingLibrary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/macbook/.config/NuGet/NuGet.Config"

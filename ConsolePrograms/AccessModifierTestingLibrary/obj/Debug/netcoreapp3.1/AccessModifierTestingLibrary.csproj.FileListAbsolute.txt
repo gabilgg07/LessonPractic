@@ -8,3 +8,13 @@
 /Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AccessModifierTestingLibrary/obj/Debug/netcoreapp3.1/AccessModifierTestingLibrary.csproj.CoreCompileInputs.cache
 /Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AccessModifierTestingLibrary/obj/Debug/netcoreapp3.1/AccessModifierTestingLibrary.dll
 /Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AccessModifierTestingLibrary/obj/Debug/netcoreapp3.1/AccessModifierTestingLibrary.pdb
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifierTestingLibrary/bin/Debug/netcoreapp3.1/AccessModifierTestingLibrary.deps.json
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifierTestingLibrary/bin/Debug/netcoreapp3.1/AccessModifierTestingLibrary.dll
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifierTestingLibrary/bin/Debug/netcoreapp3.1/AccessModifierTestingLibrary.pdb
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifierTestingLibrary/obj/Debug/netcoreapp3.1/AccessModifierTestingLibrary.csproj.AssemblyReference.cache
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifierTestingLibrary/obj/Debug/netcoreapp3.1/AccessModifierTestingLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifierTestingLibrary/obj/Debug/netcoreapp3.1/AccessModifierTestingLibrary.AssemblyInfoInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifierTestingLibrary/obj/Debug/netcoreapp3.1/AccessModifierTestingLibrary.AssemblyInfo.cs
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifierTestingLibrary/obj/Debug/netcoreapp3.1/AccessModifierTestingLibrary.csproj.CoreCompileInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifierTestingLibrary/obj/Debug/netcoreapp3.1/AccessModifierTestingLibrary.dll
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AccessModifierTestingLibrary/obj/Debug/netcoreapp3.1/AccessModifierTestingLibrary.pdb

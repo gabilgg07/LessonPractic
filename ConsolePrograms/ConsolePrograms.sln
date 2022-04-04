@@ -40,9 +40,9 @@ Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "AddPersonToArray", "AddPers
 EndProject
 Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "CodeOnCalendar", "CodeOnCalendar\CodeOnCalendar.csproj", "{0CE8ABD8-8A37-4414-9BAE-8B4597D3BE95}"
 EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{72D056E4-9F7F-4D79-ABF7-4CBAFC4B3D45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{72D056E4-9F7F-4D79-ABF7-4CBAFC4B3D45}"
 EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "AccessModifierTestingLibrary", "AccessModifierTestingLibrary\AccessModifierTestingLibrary.csproj", "{84FAD43B-F9A7-4C2C-9486-65972A358CF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifierTestingLibrary", "AccessModifierTestingLibrary\AccessModifierTestingLibrary.csproj", "{84FAD43B-F9A7-4C2C-9486-65972A358CF9}"
 EndProject
 Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "AdditionalExplanations", "AdditionalExplanations\AdditionalExplanations.csproj", "{B6B1C4BD-78CF-425C-AADB-BA3AFA5AD93F}"
 EndProject
