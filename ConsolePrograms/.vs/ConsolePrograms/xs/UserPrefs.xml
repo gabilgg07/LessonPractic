@@ -1,15 +1,13 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{CCDF76DA-9AEB-4297-BBB3-3D4571410A29}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="StructType/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SealedClass/Program.cs">
     <Files>
-      <File FileName="SealedClass/Program.cs" Line="11" Column="17" />
-      <File FileName="StructType/Program.cs" Line="101" Column="57" />
+      <File FileName="SealedClass/Program.cs" Line="10" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
-            <Node name="SealedClass" expanded="True" />
-            <Node name="StructType" expanded="True">
+            <Node name="SealedClass" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -18,7 +16,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.SealedClass FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.SealedClass PreferredExecutionTarget="MonoDevelop.Default" />
   <DisabledProjects>
     <String>OOP/EncapsulationLesson/InheritanceLesson/InheritanceLesson.csproj</String>
     <String>AccessModifiers/AccessModifiers.csproj</String>
@@ -39,6 +37,7 @@
     <String>Tasks/Tasks.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.StructType PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
