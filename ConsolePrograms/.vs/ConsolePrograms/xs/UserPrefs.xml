@@ -1,0 +1,47 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{7D09E13B-19DE-44EA-9F9A-3DB1F4F5D77B}|Default">
+  <MonoDevelop.Ide.ItemProperties.InterfaceImplementation FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="InterfaceImplementation/Program.cs">
+    <Files>
+      <File FileName="InterfaceImplementation/Program.cs" Line="9" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ConsolePrograms" expanded="True">
+            <Node name="InterfaceImplementation" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>OOP/EncapsulationLesson/InheritanceLesson/InheritanceLesson.csproj</String>
+    <String>AdditionalExplanations/AdditionalExplanations.csproj</String>
+    <String>AddPersonToArray/AddPersonToArray.csproj</String>
+    <String>CodeOnCalendar/CodeOnCalendar.csproj</String>
+    <String>EnumType/EnumType.csproj</String>
+    <String>OOP/AbstractionLesson/AbstractionLesson.csproj</String>
+    <String>OOP/EncapsulationLesson/EncapsulationLesson.csproj</String>
+    <String>OOP/InheritenceLesson/InheritenceLesson.csproj</String>
+    <String>OOP/PolymorphismLesson/PolymorphismLesson.csproj</String>
+    <String>PropertiesEncapsulation/PropertiesEncapsulation.csproj</String>
+    <String>CastingComplexTypes/CastingComplexTypes.csproj</String>
+    <String>IsAndAs_SafeWayCasting/IsAndAs_SafeWayCasting.csproj</String>
+    <String>NullishCoalescingOperators/NullishCoalescingOperators.csproj</String>
+    <String>ConsoleProperties/ConsoleProperties.csproj</String>
+    <String>Tasks/Tasks.csproj</String>
+    <String>SealedClass/SealedClass.csproj</String>
+    <String>StructType/StructType.csproj</String>
+    <String>BoxingUnboxing/BoxingUnboxing.csproj</String>
+    <String>AccessModifierTestingLibrary/AccessModifierTestingLibrary.csproj</String>
+    <String>AccessModifiers/AccessModifiers.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
