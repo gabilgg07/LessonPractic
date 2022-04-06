@@ -35,9 +35,81 @@ namespace InterfaceImplementation
             // Her isi interface ile parcalara boluruk.
             // (atomu parcalara boluruk kimi).
 
+            // Interface-in diger ustun xususiyyeti:
+            // impliment verdiyi butun child-larinin
+            // ortaq parenti ola biler. Qruplasma kimi.
+
+            Calculator calc = new Calculator();
+
+            HesablaArtir(calc);
+
+            SmartPhone sPhone = new SmartPhone();
+
+            HesablaArtir(sPhone);
+
+            SaataBax(sPhone);
+
+            Watch watch = new Watch();
+
+            SaataBax(watch);
+
+            SmartWatch sWatch = new SmartWatch();
+
+            HesablaArtir(sWatch);
+
+            SaataBax(sWatch);
+
+
+            // Single Responsibility - tek mesuliyyetlilik
+            // Misal frontend developmentin mesuliyyeti
+            // ancaq front applicationlar yazmaqdir:
+            // html-in, css-in, js-in, angular-in ve ya react-in, vue.js-in,
+            // data base ile calismamalidir.
+            // interface-lerin vezifelerini bilmeliyik, heresi
+            // oz vezifesine gore islemelidir.
+
+            // Proqram yazilib ve bu praqram daim isleyir.
+            // her proyekt ele olmalidir ki, davamli ve dayaniqli olsun.
+            // Proyektde cixan problemlerin musteriden evvel,
+            // adminstratora ve ya proqramiste gelmesi ucun log mentigi yazilir.
+            // Log mentiqi dediyimiz - database ye qosula bilmedi log atsin,
+            // hesablaama emeliyyati apara bilmedi log atsin
+            // fayl yuklenmedi log atsin kimi ve s.
+            // Musteri 2-ci, 3-cu defe yoxlamadan proqramist onu duzelde bilir.
+            // Loglamanin bir nece usulu var: loglama ola biler ki sms gondersin,
+            // ola biler ki mail gondersin e-mailimizi,
+            // ola biler xetani program papkasindaki file-la yazsin,
+            // ola biler ki, bbirbasa sql-e(database) yazsin ve s.
+
+            SmsLogger smsLogger = new SmsLogger();
+
+            EmailLogger emailLogger = new EmailLogger();
+
+            WriteLog(smsLogger);
+            WriteLog(emailLogger);
+
             Console.ReadKey();
         }
+
+        static void SaataBax(IWatch anything)
+        {
+            anything.Tick();
+        }
+
+        static void HesablaArtir(ICalculator anything)
+        {
+            anything.Add();
+        }
+
+        // ferq etmeden ILogger interface-sinden implement almis
+        // her hansi child-i argument kimi gondere bilirik
+        static void WriteLog(ILogger logger)
+        {
+            logger.Log();
+        }
     }
+
+    #region MyDevices
 
     interface ICalculator
     {
@@ -57,8 +129,8 @@ namespace InterfaceImplementation
     }
 
     class Calculator : ICalculator // implement deyilir buna (implementation)
-        // Calcularor class-i beyan olunmus ICalculator
-        // interface-sini implement edir deyirik.
+                                   // Calcularor class-i beyan olunmus ICalculator
+                                   // interface-sini implement edir deyirik.
     {
         public virtual void Add()
         {
@@ -132,7 +204,7 @@ namespace InterfaceImplementation
     {
         public virtual void Tick()
         {
-            Console.WriteLine($"Time in Watch: {DateTime.Now.ToShortTimeString()}.");
+            Console.WriteLine($"Time in Watch: {DateTime.Now.ToLongTimeString()}.");
         }
     }
 
@@ -150,7 +222,7 @@ namespace InterfaceImplementation
 
         public override void Tick()
         {
-            Console.WriteLine($"Time in SmartWatch: {DateTime.Now.ToShortTimeString()}.");
+            Console.WriteLine($"Time in SmartWatch: {DateTime.Now.ToLongTimeString()}.");
         }
 
         public void Wave()
@@ -166,4 +238,35 @@ namespace InterfaceImplementation
             Console.WriteLine("Radio's radio waves...");
         }
     }
+
+    #endregion
+
+    #region My Log
+
+    interface ILogger
+    {
+        void Log();
+    }
+
+    // ikisini birlesdiren ILogger interface-miz var:
+
+    class SmsLogger : ILogger
+    {
+        public void Log()
+        {
+            Console.WriteLine("Log with SmsLogger");
+        }
+    }
+
+    class EmailLogger : ILogger
+    {
+        public void Log()
+        {
+            Console.WriteLine("Log with EmailLogger");
+        }
+    }
+
+    #endregion
+
+
 }
