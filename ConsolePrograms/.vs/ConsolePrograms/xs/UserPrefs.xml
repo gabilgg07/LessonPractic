@@ -1,17 +1,19 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{CB20D3F0-E790-4CDA-81A0-C3B4F34C6D33}|Default">
-  <MonoDevelop.Ide.ItemProperties.StaticClassAndMethods FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="StaticClassAndMethods/Program.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{5CEA89F5-7C32-4613-B273-D3CDA728E3C2}|Default">
+  <MonoDevelop.Ide.ItemProperties.ExtensionMethods FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ExtensionMethods/Program.cs">
     <Files>
-      <File FileName="InterfaceImplementation/Program.cs" Line="101" Column="54" />
-      <File FileName="StaticClassAndMethods/Program.cs" Line="23" Column="46" />
+      <File FileName="Helper/DataHelper.cs" Line="107" Column="1" />
+      <File FileName="ExtensionMethods/Program.cs" Line="8" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
-            <Node name="StaticClassAndMethods" expanded="True">
+            <Node name="ExtensionMethods" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
+            <Node name="Helper" expanded="True" />
+            <Node name="StaticClassAndMethods" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -40,6 +42,7 @@
     <String>AccessModifierTestingLibrary/AccessModifierTestingLibrary.csproj</String>
     <String>AccessModifiers/AccessModifiers.csproj</String>
     <String>InterfaceImplementation/InterfaceImplementation.csproj</String>
+    <String>StaticClassAndMethods/StaticClassAndMethods.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -105,7 +105,14 @@ namespace Helper
             }
         }
 
-        public static int YearsOfTimeSpan(TimeSpan ts)
+        /// <summary>
+        /// If difference Now and any date,
+        /// Calculated difference from Now and return years.
+        /// </summary>
+        /// <param name="ts"></param>
+        /// <returns></returns>
+        //public static int YearsIfDiffFromNow(this TimeSpan ts)
+        public static int YearsOfTimeSpan(this TimeSpan ts)
         {
             DateTime date = DateTime.Now - ts;
 
