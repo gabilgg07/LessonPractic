@@ -1,14 +1,15 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{7D09E13B-19DE-44EA-9F9A-3DB1F4F5D77B}|Default">
-  <MonoDevelop.Ide.ItemProperties.InterfaceImplementation FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="InterfaceImplementation/Program.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{CB20D3F0-E790-4CDA-81A0-C3B4F34C6D33}|Default">
+  <MonoDevelop.Ide.ItemProperties.StaticClassAndMethods FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="StaticClassAndMethods/Program.cs">
     <Files>
-      <File FileName="InterfaceImplementation/Program.cs" Line="36" Column="45" />
+      <File FileName="InterfaceImplementation/Program.cs" Line="101" Column="54" />
+      <File FileName="StaticClassAndMethods/Program.cs" Line="23" Column="46" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
-            <Node name="InterfaceImplementation" expanded="True">
+            <Node name="StaticClassAndMethods" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -38,6 +39,7 @@
     <String>BoxingUnboxing/BoxingUnboxing.csproj</String>
     <String>AccessModifierTestingLibrary/AccessModifierTestingLibrary.csproj</String>
     <String>AccessModifiers/AccessModifiers.csproj</String>
+    <String>InterfaceImplementation/InterfaceImplementation.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

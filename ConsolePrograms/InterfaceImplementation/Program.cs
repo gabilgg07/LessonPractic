@@ -85,8 +85,22 @@ namespace InterfaceImplementation
 
             EmailLogger emailLogger = new EmailLogger();
 
+            // heresine ozune aid mesuliyyet verildi:
+            // SmsLogger sms vasitesi ile mesaj gonderecek:
             WriteLog(smsLogger);
+            // EmailLogger mail vasitesile mesaj gonderecek:
             WriteLog(emailLogger);
+
+            var l = new SmsLogger();
+            //var l = new EmailLogger();
+
+            // 1 dene inistansi deyismekle her yerde e-mail loger gondermek olur.
+
+            // Yerine kecme prinsipi.
+            // Misal bir saatimiz var, saata ferqli ferqi firmalarin
+            // batareyalarini taxmaqla isletmek olar.
+
+            WriteLog(l);
 
             Console.ReadKey();
         }
