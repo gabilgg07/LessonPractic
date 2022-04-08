@@ -1,19 +1,14 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{5CEA89F5-7C32-4613-B273-D3CDA728E3C2}|Default">
-  <MonoDevelop.Ide.ItemProperties.ExtensionMethods FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ExtensionMethods/Program.cs">
-    <Files>
-      <File FileName="Helper/DataHelper.cs" Line="107" Column="1" />
-      <File FileName="ExtensionMethods/Program.cs" Line="8" Column="10" />
-    </Files>
+  <MonoDevelop.Ide.ItemProperties.ExtensionMethods PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
-            <Node name="ExtensionMethods" expanded="True">
-              <Node name="Program.cs" selected="True" />
+            <Node name="ExtensionMethods" expanded="True" />
+            <Node name="Helper" expanded="True">
+              <Node name="DataHelper.cs" selected="True" />
             </Node>
-            <Node name="Helper" expanded="True" />
-            <Node name="StaticClassAndMethods" expanded="True" />
           </Node>
         </State>
       </Pad>

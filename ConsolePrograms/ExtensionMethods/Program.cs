@@ -29,6 +29,10 @@ namespace ExtensionMethods
         // bu method hemin type-in EXTENSION-u olur.
         public static int YearsIfDiffFromNow(this TimeSpan ts) // TimeSpan type-ina
                                                                // extension-umuzu yazdiq.
+                                                               // Adlandirilma type gore olur:
+                                                               // TimeSpan extension.
+                                                               // Butun TimeSpan-lar ucun
+                                                               // bu methodu cagira bilerik.
         {
             DateTime date = DateTime.Now - ts;
 
@@ -46,6 +50,10 @@ namespace ExtensionMethods
 
         static public string ReverseString(this string value, string splitter = "") // string type-ina 
                                                                                     // extension-umuzu yazdiq.
+                                                                                    // String extension..
+
+                                                                                    // Butun string-ler ucun
+                                                                                    // bu methodu cagira bilerik.
         {
             char[] arr = value.ToCharArray();
 

@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{2E7CDFE0-BA32-425F-8F40-6E1001EC1C30}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AcademyTask.ConsoleApp/Models/Mentor.cs">
+    <Files>
+      <File FileName="AcademyTask.ConsoleApp/Program.cs" Line="10" Column="1" />
+      <File FileName="AcademyTask.ConsoleApp/Stucture/Person.cs" Line="10" Column="1" />
+      <File FileName="AcademyTask.ConsoleApp/Models/Student.cs" Line="12" Column="39" />
+      <File FileName="AcademyTask.ConsoleApp/Models/Mentor.cs" Line="9" Column="34" />
+      <File FileName="AcademyTask.ConsoleApp/Models/Teacher.cs" Line="9" Column="34" />
+      <File FileName="AcademyTask.ConsoleApp/Models/Group.cs" Line="22" Column="28" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AcademySolution" expanded="True">
+            <Node name="AcademyTask.ConsoleApp" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Mentor.cs" selected="True" />
+              </Node>
+              <Node name="Stucture" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AcademyTask.ConsoleApp FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
