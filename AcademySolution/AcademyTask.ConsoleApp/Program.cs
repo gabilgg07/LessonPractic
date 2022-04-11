@@ -1,4 +1,5 @@
 ﻿using System;
+using ClosedXML.Excel;
 
 namespace AcademyTask.ConsoleApp
 {
@@ -6,7 +7,9 @@ namespace AcademyTask.ConsoleApp
     {
         static void Main(string[] args)
         {
+            XLWorkbook workbook = new XLWorkbook();
 
+            workbook.SaveAs("Student.xlsx");
 
             Console.ReadKey();
 

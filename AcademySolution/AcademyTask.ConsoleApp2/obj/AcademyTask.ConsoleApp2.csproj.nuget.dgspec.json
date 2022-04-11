@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/AcademySolution/AcademyTask.ConsoleApp/AcademyTask.ConsoleApp.csproj": {}
+    "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/AcademySolution/AcademyTask.ConsoleApp2/AcademyTask.ConsoleApp2.csproj": {}
   },
   "projects": {
-    "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/AcademySolution/AcademyTask.ConsoleApp/AcademyTask.ConsoleApp.csproj": {
+    "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/AcademySolution/AcademyTask.ConsoleApp2/AcademyTask.ConsoleApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/AcademySolution/AcademyTask.ConsoleApp/AcademyTask.ConsoleApp.csproj",
-        "projectName": "AcademyTask.ConsoleApp",
-        "projectPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/AcademySolution/AcademyTask.ConsoleApp/AcademyTask.ConsoleApp.csproj",
+        "projectUniqueName": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/AcademySolution/AcademyTask.ConsoleApp2/AcademyTask.ConsoleApp2.csproj",
+        "projectName": "AcademyTask.ConsoleApp2",
+        "projectPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/AcademySolution/AcademyTask.ConsoleApp2/AcademyTask.ConsoleApp2.csproj",
         "packagesPath": "/Users/macbook/.nuget/packages/",
-        "outputPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/AcademySolution/AcademyTask.ConsoleApp/obj/",
+        "outputPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/AcademySolution/AcademyTask.ConsoleApp2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/macbook/.config/NuGet/NuGet.Config"
@@ -37,12 +37,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "ClosedXML": {
-              "target": "Package",
-              "version": "[0.95.4, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

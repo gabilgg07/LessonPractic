@@ -3,17 +3,23 @@ namespace AcademyTask.ConsoleApp.Stucture
 {
     public class Person
     {
+       
         public Person(string name, string surname)
         {
             this.name = name;
-            this.Surname = surname;
+            Surname = surname;
 
             Console.WriteLine("Persin init");
         }
 
         private string name;
+        protected int id;
 
-        public int Id { get; set; }
+        public int Id {
+            get {
+                return id;
+            }
+        }
 
         // Castom implemention
         public string Name {

@@ -7,14 +7,18 @@
 
   <ItemGroup>
     <None Remove="Models\" />
-    <None Remove="Stucture\" />
-    <None Remove="ClosedXML" />
+    <None Remove="Helper" />
+    <None Remove="AppCode\" />
+    <None Remove="AppCode\Extensions\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Stucture\" />
+    <Folder Include="AppCode\" />
+    <Folder Include="AppCode\Extensions\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="ClosedXML" Version="0.95.4" />
+    <Reference Include="Helper">
+      <HintPath>..\..\ConsolePrograms\Helper\bin\Debug\netcoreapp3.1\Helper.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>
