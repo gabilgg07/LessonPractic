@@ -16,6 +16,8 @@ namespace RemoveFromArrayCA
             Collection-larda ise elave etme mehdudiyyeti yoxdur deye,
             her elave olunan yeni elemen ferli yaddas sahesine dusur.
             Komkret elave olunacaqlarin sayi olmadigindan ardicilligi qoruya bilmir.
+            Collection-larda sira qorunmur, sepelenmis sekilde yazilirlar yaddasda.
+            Ona gore oxudularda, hansini tez tapdi onu getirir.
 
             Arrayda elementeri uzerinde emeliyyat aparmaq ucun tez tapa bilir.
             Collectionlar da ise heresi bir terefde oldugundan gec tapir.
@@ -31,6 +33,9 @@ namespace RemoveFromArrayCA
             Collection-lar uzerinde ama emeliyyat aparmaq daha rahatdir.
             Array-a nisbeten 1 setirlik kodlarla hell etmek olur.
 
+            Collectionlar Array-lere(massivlere) cox benzeyir ama fleksibldi.
+
+            --------------------------------------------------------------------
             
             Collection-larin 2 novu var:
             Generic collections, Non-generic collections.
@@ -40,6 +45,21 @@ namespace RemoveFromArrayCA
             ana klasi olan object kimi goturulur.
             Ona gore elementlerinden istifade edende elave olaraq
             boxin-unboxin emeliyyatlarindan da istifade edilir.
+
+            --------------------------------------------------------------------
+
+            ArrayList - indeksle isleyen bir collection-du,
+            bir de var key, value ile isleyen. Misal HashTable.
+            ArrayList.Add(value) methodunda bizden sadece value isteyir
+            ve onlari add etdikce indeksleyir.
+
+            HashTable.Add(key, value) da ise key ve value teleb edir.
+            Yazilan key-e yazilan valune teyin edir.
+            key-value pair => key-value birlesmesi.
+            Eyni key-i tekrar add etmek exeption(error) verir.
+
+            ArrayList-de oxuyanda sira nomresine gore oxuyur,
+            HashTable-da ise key-e esasen.
              */
 
             Hashtable hTable = new Hashtable();
