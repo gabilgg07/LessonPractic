@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Diagnostics;
 
 namespace RemoveFromArrayCA
 {
@@ -40,17 +41,47 @@ namespace RemoveFromArrayCA
             Ona gore elementlerinden istifade edende elave olaraq
             boxin-unboxin emeliyyatlarindan da istifade edilir.
              */
-            ArrayList list = new ArrayList();
 
-            list.Add(6);
-            list.Add(true);
-            list.Add(DateTime.Now);
-            list.Add("String anything...");
+            Hashtable hTable = new Hashtable();
 
-            foreach (var item in list)
+            hTable.Add("birinci","on bir");
+            hTable.Add(2,"on iki");
+            hTable.Add("ucuncu",13);
+            hTable.Add(4,14);
+            //hTable.Add(4,3); => eyni key yazmaq olmaz.
+
+            Console.WriteLine(hTable["birinci"]);
+            Console.WriteLine(hTable[2]);
+            Console.WriteLine(hTable["ucuncu"]);
+            Console.WriteLine(hTable[4]);
+
+            Console.WriteLine("-----------------------");
+
+            Hashtable hashtable = new Hashtable();
+
+            string[] profession = new string[] { "analitik", "informasiya muhendisi" };
+
+            hashtable.Add("D6TFH89","Asif Kerimov");
+            hashtable.Add("64TFH8O","Eli Semedov");
+            hashtable.Add("YTF5H39","Sevda Besirzade");
+            hashtable.Add("54TFG89",profession);
+
+            foreach (var key in hashtable.Keys)
             {
-                Console.WriteLine(item);
+                object value = hashtable[key];
+
+                if (value is string[] list)
+                {
+                    string joinedArray = string.Join(", ", list);
+
+                    Console.WriteLine($"{key} {joinedArray}");
+                }
+                else
+                {
+                    Console.WriteLine($"{key} {value}");
+                }
             }
+
 
             Console.ReadKey();
         }
@@ -98,6 +129,55 @@ namespace RemoveFromArrayCA
             }
 
             Console.WriteLine("==== end ====");
+        }
+
+        private static void RemoveFromArrayList()
+        {
+            ArrayList list = new ArrayList();
+
+            list.Add(6);
+            list.Add(true);
+            list.Add(DateTime.Now);
+            list.Add("String anything...");
+
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
+
+            ArrayList ls = new ArrayList();
+
+            ls.Add(1);
+            ls.Add(2);
+            ls.Add(3);
+            ls.Add(4);
+            ls.Add(5);
+            ls.Add(6);
+
+            Console.WriteLine("--- Print ---");
+
+            foreach (var item in ls)
+            {
+                Console.WriteLine(item);
+            }
+
+            ls.RemoveAt(2);
+
+            Console.WriteLine("--- Print Removed 2 index ---");
+
+            foreach (var item in ls)
+            {
+                Console.WriteLine(item);
+            }
+
+            ls.Clear();
+
+            Console.WriteLine("--- Print Clear ---");
+
+            foreach (var item in ls)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
