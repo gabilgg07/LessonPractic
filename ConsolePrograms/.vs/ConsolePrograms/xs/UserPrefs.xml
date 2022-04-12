@@ -1,13 +1,14 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{5CEA89F5-7C32-4613-B273-D3CDA728E3C2}|Default">
-  <MonoDevelop.Ide.ItemProperties.ExtensionMethods PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{5C352252-FB2D-465D-8D44-9C78DFB16E80}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RemoveFromArrayCA/Program.cs">
+    <Files>
+      <File FileName="RemoveFromArrayCA/Program.cs" Line="9" Column="31" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
-            <Node name="ExtensionMethods" expanded="True" />
-            <Node name="Helper" expanded="True">
-              <Node name="DataHelper.cs" selected="True" />
+            <Node name="RemoveFromArrayCA" expanded="True">
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -15,6 +16,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.RemoveFromArrayCA FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <DisabledProjects>
     <String>OOP/EncapsulationLesson/InheritanceLesson/InheritanceLesson.csproj</String>
     <String>AdditionalExplanations/AdditionalExplanations.csproj</String>
@@ -38,6 +40,7 @@
     <String>AccessModifiers/AccessModifiers.csproj</String>
     <String>InterfaceImplementation/InterfaceImplementation.csproj</String>
     <String>StaticClassAndMethods/StaticClassAndMethods.csproj</String>
+    <String>ExtensionMethods/ExtensionMethods.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
