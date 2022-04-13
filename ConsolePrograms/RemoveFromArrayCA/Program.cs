@@ -8,6 +8,8 @@ namespace RemoveFromArrayCA
     {
         static void Main(string[] args)
         {
+            #region Info about Collections
+
             /*
              Array-den elave olaraq bir de Collection-larimiz var.
 
@@ -62,6 +64,8 @@ namespace RemoveFromArrayCA
             ArrayList-de oxuyanda sira nomresine gore oxuyur,
             HashTable-da ise key-e esasen.
              */
+
+            #endregion
 
             Console.ReadKey();
         }

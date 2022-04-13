@@ -1,22 +1,23 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{5C352252-FB2D-465D-8D44-9C78DFB16E80}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RemoveFromArrayCA/Program.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{1A0FA227-27D4-4522-8665-C4EEDF0ABC0B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GenericCollectionsCA/Program.cs">
     <Files>
-      <File FileName="RemoveFromArrayCA/Program.cs" Line="9" Column="31" />
+      <File FileName="RemoveFromArrayCA/Program.cs" Line="69" Column="1" />
+      <File FileName="GenericCollectionsCA/Program.cs" Line="15" Column="57" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
-            <Node name="RemoveFromArrayCA" expanded="True">
+            <Node name="GenericCollectionsCA" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
+            <Node name="Helper" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.RemoveFromArrayCA FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <DisabledProjects>
     <String>OOP/EncapsulationLesson/InheritanceLesson/InheritanceLesson.csproj</String>
     <String>AdditionalExplanations/AdditionalExplanations.csproj</String>
@@ -41,8 +42,10 @@
     <String>InterfaceImplementation/InterfaceImplementation.csproj</String>
     <String>StaticClassAndMethods/StaticClassAndMethods.csproj</String>
     <String>ExtensionMethods/ExtensionMethods.csproj</String>
+    <String>RemoveFromArrayCA/RemoveFromArrayCA.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.GenericCollectionsCA PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

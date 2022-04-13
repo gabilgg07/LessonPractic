@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/Helper/Helper.csproj": {}
+    "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/GenericCollectionsCA/GenericCollectionsCA.csproj": {}
   },
   "projects": {
-    "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/Helper/Helper.csproj": {
+    "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/GenericCollectionsCA/GenericCollectionsCA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/Helper/Helper.csproj",
-        "projectName": "Helper",
-        "projectPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/Helper/Helper.csproj",
+        "projectUniqueName": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/GenericCollectionsCA/GenericCollectionsCA.csproj",
+        "projectName": "GenericCollectionsCA",
+        "projectPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/GenericCollectionsCA/GenericCollectionsCA.csproj",
         "packagesPath": "/Users/macbook/.nuget/packages/",
-        "outputPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/Helper/obj/",
+        "outputPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/GenericCollectionsCA/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/macbook/.config/NuGet/NuGet.Config"
