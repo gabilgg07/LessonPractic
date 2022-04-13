@@ -8,6 +8,8 @@ namespace GenericCollectionsCA
         static void Main(string[] args)
         {
             // Generic Collection:
+
+            //       T
             // List<type> - ArrayList-in generic formasi.
 
             #region List<int>
@@ -123,6 +125,14 @@ namespace GenericCollectionsCA
             #endregion
 
 
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(new string('-', Console.WindowWidth));
+            Console.WriteLine();
+            Console.ForegroundColor = (ConsoleColor)(-1);
+
+
+            #region List<string>
+
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("==== List<string> Learning Start ====\n");
             Console.ForegroundColor = (ConsoleColor)(-1);
@@ -152,7 +162,7 @@ namespace GenericCollectionsCA
 
             foreach (var str in strList)
             {
-                Console.Write(str + (strList.FindLast(x=>true)!=str?", ":""));
+                Console.Write(str + (strList.FindLast(x => true) != str ? ", " : ""));
             }
 
             strList.RemoveAll(s => s[0] == 'M');
@@ -194,6 +204,47 @@ namespace GenericCollectionsCA
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("\n\n==== List<string> Learning End ====\n");
             Console.ForegroundColor = (ConsoleColor)(-1);
+
+            #endregion
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(new string('-', Console.WindowWidth));
+            Console.WriteLine();
+            Console.ForegroundColor = (ConsoleColor)(-1);
+
+            // Dictionary<TKey,TValue> - HashTable-in generic formasai.
+
+            #region Dictionary
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("==== Dictionary<TKey,TValue> Learning Start ====\n");
+            Console.ForegroundColor = (ConsoleColor)(-1);
+
+            //Dictionary<string, int> keyValuePairs = new Dictionary<string, int>();
+
+            // var ile seliqeli gorunur:
+            var strIntDic = new Dictionary<string, int>();
+
+            strIntDic.Add("iki", 2);
+            strIntDic.Add("otuz", 30);
+            strIntDic.Add("on iki", 12);
+            strIntDic.Add("yuz", 100);
+            strIntDic.Add("elli uc", 53 );
+
+            Console.WriteLine("---- strIntDic ----\n");
+
+            foreach (var k in strIntDic.Keys)
+            {
+                var v = strIntDic[k];
+                Console.WriteLine($"{k}:{(k.Length<7?"\t":"")}\t {v}");
+            }
+            Console.WriteLine();
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("\n\n==== Dictionary<TKey,TValue> Learning End ====\n");
+            Console.ForegroundColor = (ConsoleColor)(-1);
+
+            #endregion
 
             Console.ReadKey();
         }
