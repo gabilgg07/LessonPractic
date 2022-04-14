@@ -328,6 +328,97 @@ namespace GenericCollectionsCA
 
             #endregion
 
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(new string('-', Console.WindowWidth));
+            Console.WriteLine();
+            Console.ForegroundColor = (ConsoleColor)(-1);
+
+            #region Stack Queue HashSet
+
+            Console.WriteLine("---- Stack<T> & Queue<T> Generic ----\n");
+
+            Stack<int> torba = new Stack<int>();
+            torba.Push(8);
+            torba.Push(76);
+            Console.WriteLine("---- Stack<int> torba ----\n");
+
+            foreach (var item in torba)
+            {
+                Console.Write(item + ", ");
+            }
+
+            int peek = torba.Peek(); // bize novbede olan item-i gosterir.
+            Console.WriteLine($"\n\nOn next peek: {peek}\n");
+
+
+            int pop = torba.Pop(); // bize cixarilan item-i qaytarir.
+            Console.WriteLine($"Removed: {pop}\n");
+            Console.WriteLine($"torba.Pop(): {torba.Pop()}\n");
+            bool res = torba.TryPop(out int resNum);// ?
+
+            Console.WriteLine($"torba.TryPop: {res} - int: {resNum}\n");
+
+
+            Queue<string> boru = new Queue<string>();
+
+            boru.Enqueue("1-ci");
+            boru.Enqueue("2-ci");
+
+            Console.WriteLine("---- Queue<string> boru ----\n");
+
+            foreach (var item in boru)
+            {
+                Console.Write(item + ", ");
+            }
+
+            Console.WriteLine($"\n\nboru.Dequeue(): {boru.Dequeue()}\n"); // cixarilan item-i qaytarir
+            Console.WriteLine($"boru.Peek(): {boru.Peek()}\n"); // novbede olani
+
+
+            Console.WriteLine("---- HashSet<T> Generic ----\n");
+
+            HashSet<int> hash = new HashSet<int>();
+
+            hash.Add(2);
+            hash.Add(4);
+            hash.Add(2);
+            hash.Add(4);
+            hash.Add(3);
+            hash.Add(3);
+
+            // Eyni olan elementleri tekrar yuklemir,
+            // errar da vermir, neytral qalir.
+
+            foreach (var item in hash)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine();
+
+            Person p1 = new Person("a1", "s1");
+            Person p2 = new Person("a2", "s2");
+            Person p3 = new Person("a3", "s3");
+            Person p4 = new Person("a4", "s4");
+            Person p5 = new Person("a5", "s5");
+            Person p6 = new Person("a6", "s6");
+
+            HashSet<Person> hashP = new HashSet<Person>();
+
+            hashP.Add(p1);
+            hashP.Add(p4);
+            hashP.Add(p1);
+            hashP.Add(p5);
+            hashP.Add(p4);
+            hashP.Add(p3);
+
+            foreach (var item in hashP)
+            {
+                Console.WriteLine($"{item.Name} {item.Surname}");
+            }
+
+            #endregion
+
             Console.ReadKey();
         }
     }
