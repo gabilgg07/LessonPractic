@@ -1,20 +1,16 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{BD2FCF12-5666-4E8E-89CE-BCEFBD35184B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GenericCollectionsCA/Program.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{2B177E87-594A-4123-BE45-914B29E3EBFA}|Default">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="BookLibrarySystem/Program.cs" Line="29" Column="1" />
-      <File FileName="BookLibrarySystem/Book.cs" Line="26" Column="60" />
-      <File FileName="BookLibrarySystem/Author.cs" />
-      <File FileName="BookLibrarySystem/Identity.cs" />
-      <File FileName="BookLibrarySystem/Category.cs" Line="1" Column="1" />
-      <File FileName="Helper/ConsoleHelper.cs" Line="224" Column="1" />
-      <File FileName="GenericCollectionsCA/Program.cs" Line="395" Column="21" />
+      <File FileName="GenericTypes/Program.cs" Line="11" Column="14" />
+      <File FileName="GenericTypes/StringStore.cs" Line="20" Column="1" />
+      <File FileName="Helper/ConsoleHelper.cs" Line="216" Column="1" />
+      <File FileName="GenericTypes/GenericStore.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
-            <Node name="BookLibrarySystem" expanded="True" />
-            <Node name="GenericCollectionsCA" expanded="True">
+            <Node name="GenericTypes" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
             <Node name="Helper" expanded="True" />
@@ -50,9 +46,10 @@
     <String>ExtensionMethods/ExtensionMethods.csproj</String>
     <String>RemoveFromArrayCA/RemoveFromArrayCA.csproj</String>
     <String>GenericCollectionsCA/GenericCollectionsCA.csproj</String>
+    <String>BookLibrarySystem/BookLibrarySystem.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.ItemProperties.BookLibrarySystem PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.GenericTypes PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

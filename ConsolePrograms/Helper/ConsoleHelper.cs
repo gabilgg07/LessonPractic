@@ -209,18 +209,28 @@ namespace Helper
             Console.SetCursorPosition(0, currentLineCursor);
         }
 
-        public static void Header(string str, char symbol = '-')
+        public static void Header(string str, char symbol = '-', ConsoleColor color = (ConsoleColor)(-1), ConsoleColor headeColor = (ConsoleColor)(-1))
         {
-            Header(str, symbol, symbol);
+            Header(str, symbol, symbol, color, headeColor);
         }
 
-        public static void Header(string str, char leftSymbol, char rightSymbol)
+        public static void Header(string str, char leftSymbol, char rightSymbol, ConsoleColor color)
+        {
+            Header(str, leftSymbol, rightSymbol, color, color);
+        }
+
+        public static void Header(string str, char leftSymbol, char rightSymbol, ConsoleColor color, ConsoleColor headerColor)
         {
             int widthWindow = Console.WindowWidth;
             int spaces = (widthWindow - str.Length - 2) / 2;
 
-            Console.WriteLine($"{new string(leftSymbol, spaces)} {str} {new string(rightSymbol, spaces)}\n");
+            Console.ForegroundColor = color;
+            Console.Write($"{new string(leftSymbol, spaces)}");
+            Console.ForegroundColor = headerColor;
+            Console.Write($" {str} ");
+            Console.ForegroundColor = color;
+            Console.WriteLine($"{new string(rightSymbol, spaces)}\n");
+            Console.ForegroundColor = (ConsoleColor)(-1);
         }
-
     }
 }
