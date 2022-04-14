@@ -326,6 +326,32 @@ namespace GenericCollectionsCA
                 Console.WriteLine($"{person.Name} {person.Surname}");
             }
 
+            Console.WriteLine();
+
+            List<int> wOClear = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            // Collectionlarda her defe element eleve edib silende
+            // collectionun uzunlugu(count-u) yeni qiymet alir.
+
+
+            //int countOfList = wOClear.Count;
+            //for (int i = 0; i < countOfList; i++)
+            //{
+            //    wOClear.RemoveAt(0);
+            //}
+            // ve ya bele 
+            while (wOClear.Count>0)
+            {
+                wOClear.RemoveAt(0);
+            }
+
+            Console.WriteLine("---- List<int> wOClear Clear With RemoveAt ----");
+
+            foreach (var item in wOClear)
+            {
+                Console.WriteLine(item);
+            }
+
             #endregion
 
             Console.ForegroundColor = ConsoleColor.Yellow;
