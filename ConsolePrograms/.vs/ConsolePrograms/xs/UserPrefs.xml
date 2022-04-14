@@ -1,18 +1,18 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{1A0FA227-27D4-4522-8665-C4EEDF0ABC0B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Helper/ConsoleHelper.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GenericCollectionsCA/Program.cs">
     <Files>
       <File FileName="RemoveFromArrayCA/Program.cs" Line="69" Column="1" />
-      <File FileName="GenericCollectionsCA/Program.cs" Line="129" Column="43" />
-      <File FileName="Helper/ConsoleHelper.cs" Line="1" Column="1" />
+      <File FileName="GenericCollectionsCA/Program.cs" Line="295" Column="71" />
+      <File FileName="Helper/ConsoleHelper.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
-            <Node name="GenericCollectionsCA" expanded="True" />
-            <Node name="Helper" expanded="True">
-              <Node name="ConsoleHelper.cs" selected="True" />
+            <Node name="GenericCollectionsCA" expanded="True">
+              <Node name="Program.cs" selected="True" />
             </Node>
+            <Node name="Helper" expanded="True" />
           </Node>
         </State>
       </Pad>

@@ -233,10 +233,15 @@ namespace GenericCollectionsCA
 
             Console.WriteLine("---- strIntDic ----\n");
 
-            foreach (var k in strIntDic.Keys)
+            Console.WriteLine("key\t\tvalue\n");
+
+
+            // Generic Key-Value Pair type-larda foreach-de
+            // key value propertilerin verir item-e.
+            // Non-generiklerde object kimi qaytarir.
+            foreach (var item in strIntDic)
             {
-                var v = strIntDic[k];
-                Console.WriteLine($"{k}:{(k.Length<7?"\t":"")}\t {v}");
+                Console.WriteLine($"{item.Key}:{(item.Key.Length<7?"\t":"")}\t {item.Value}");
             }
             Console.WriteLine();
 
@@ -246,7 +251,96 @@ namespace GenericCollectionsCA
 
             #endregion
 
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(new string('-', Console.WindowWidth));
+            Console.WriteLine();
+            Console.ForegroundColor = (ConsoleColor)(-1);
+
+            // SortedList<TKey,TValue> - SortedList-in generic formasai.
+
+            #region SortedList generic type
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("==== SortedList<TKey,TValue> Learning Start ====\n");
+            Console.ForegroundColor = (ConsoleColor)(-1);
+
+            //SortedList<string, int> keyValuePairs = new Dictionary<string, int>();
+
+            // var ile seliqeli gorunur:
+            var intStrSorted = new SortedList<int, string>();
+
+            intStrSorted.Add(2,"iki");
+            intStrSorted.Add(30, "otuz");
+            intStrSorted.Add(12, "on iki");
+            intStrSorted.Add(100, "yuz");
+            intStrSorted.Add(53, "elli uc");
+
+            // key-i int yeni number type oldugundan, kemiyyete gore siralayir.
+
+            Console.WriteLine("---- intStrSorted ----\n");
+
+            Console.WriteLine("key\tvalue\n");
+            foreach (var item in intStrSorted)
+            {
+                Console.WriteLine($"{item.Key} :\t {item.Value}");
+            }
+            Console.WriteLine();
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("\n\n==== SortedList<TKey,TValue> Learning End ====\n");
+            Console.ForegroundColor = (ConsoleColor)(-1);
+
+            #endregion
+
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(new string('-', Console.WindowWidth));
+            Console.WriteLine();
+            Console.ForegroundColor = (ConsoleColor)(-1);
+
+            #region List Attachment
+
+            Console.WriteLine("---- List<KeyValuePair<string, int>> ----\n");
+
+            List<KeyValuePair<string, int>> ll = new List<KeyValuePair<string, int>>();
+
+            ll.Add(new KeyValuePair<string, int>("bir", 1));
+
+            // KeyValuePair tipindedi listin 0 -ci item-i.
+            // Amma esas bunun evezine Dictionary-den istifade edilir.
+            Console.WriteLine($"{ll[0].Key} {ll[0].Value}");
+
+            Console.WriteLine();
+
+            Console.WriteLine("---- List<Person> ----\n");
+
+            Person p = new Person("Kamil", "Ehmedov");
+
+            var people = new List<Person>();
+
+            people.Add(p);
+
+            foreach (var person in people)
+            {
+                Console.WriteLine($"{person.Name} {person.Surname}");
+            }
+
+            #endregion
+
             Console.ReadKey();
+        }
+    }
+
+    class Person
+    {
+        public string Name { get; set; }
+        public string Surname { get; set; }
+
+        public Person(string name, string surname)
+        {
+            Name = name;
+            Surname = surname;
         }
     }
 }
