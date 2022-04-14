@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/GenericCollectionsCA/GenericCollectionsCA.csproj": {}
+    "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/BookLibrarySystem/BookLibrarySystem.csproj": {}
   },
   "projects": {
-    "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/GenericCollectionsCA/GenericCollectionsCA.csproj": {
+    "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/BookLibrarySystem/BookLibrarySystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/GenericCollectionsCA/GenericCollectionsCA.csproj",
-        "projectName": "GenericCollectionsCA",
-        "projectPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/GenericCollectionsCA/GenericCollectionsCA.csproj",
+        "projectUniqueName": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/BookLibrarySystem/BookLibrarySystem.csproj",
+        "projectName": "BookLibrarySystem",
+        "projectPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/BookLibrarySystem/BookLibrarySystem.csproj",
         "packagesPath": "/Users/macbook/.nuget/packages/",
-        "outputPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/GenericCollectionsCA/obj/",
+        "outputPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/BookLibrarySystem/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/macbook/.config/NuGet/NuGet.Config"

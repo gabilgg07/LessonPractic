@@ -11,3 +11,6 @@
 /Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/GenericCollectionsCA/obj/Debug/netcoreapp3.1/GenericCollectionsCA.dll
 /Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/GenericCollectionsCA/obj/Debug/netcoreapp3.1/GenericCollectionsCA.pdb
 /Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/GenericCollectionsCA/obj/Debug/netcoreapp3.1/GenericCollectionsCA.genruntimeconfig.cache
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/GenericCollectionsCA/bin/Debug/netcoreapp3.1/Helper.dll
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/GenericCollectionsCA/bin/Debug/netcoreapp3.1/Helper.pdb
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/GenericCollectionsCA/obj/Debug/netcoreapp3.1/GenericCollectionsCA.csproj.CopyComplete

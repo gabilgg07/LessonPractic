@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "GenericCollectionsCA/1.0.0": {
+      "BookLibrarySystem/1.0.0": {
         "dependencies": {
           "Helper": "1.0.0"
         },
         "runtime": {
-          "GenericCollectionsCA.dll": {}
+          "BookLibrarySystem.dll": {}
         }
       },
       "Helper/1.0.0": {
@@ -22,7 +22,7 @@
     }
   },
   "libraries": {
-    "GenericCollectionsCA/1.0.0": {
+    "BookLibrarySystem/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

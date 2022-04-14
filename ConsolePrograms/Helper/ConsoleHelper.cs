@@ -209,5 +209,18 @@ namespace Helper
             Console.SetCursorPosition(0, currentLineCursor);
         }
 
+        public static void Header(string str, char symbol = '-')
+        {
+            Header(str, symbol, symbol);
+        }
+
+        public static void Header(string str, char leftSymbol, char rightSymbol)
+        {
+            int widthWindow = Console.WindowWidth;
+            int spaces = (widthWindow - str.Length - 2) / 2;
+
+            Console.WriteLine($"{new string(leftSymbol, spaces)} {str} {new string(rightSymbol, spaces)}\n");
+        }
+
     }
 }

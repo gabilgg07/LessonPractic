@@ -1,14 +1,19 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{1A0FA227-27D4-4522-8665-C4EEDF0ABC0B}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{BD2FCF12-5666-4E8E-89CE-BCEFBD35184B}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="GenericCollectionsCA/Program.cs">
     <Files>
-      <File FileName="RemoveFromArrayCA/Program.cs" Line="69" Column="1" />
-      <File FileName="GenericCollectionsCA/Program.cs" Line="295" Column="71" />
-      <File FileName="Helper/ConsoleHelper.cs" />
+      <File FileName="BookLibrarySystem/Program.cs" Line="29" Column="1" />
+      <File FileName="BookLibrarySystem/Book.cs" Line="26" Column="60" />
+      <File FileName="BookLibrarySystem/Author.cs" />
+      <File FileName="BookLibrarySystem/Identity.cs" />
+      <File FileName="BookLibrarySystem/Category.cs" Line="1" Column="1" />
+      <File FileName="Helper/ConsoleHelper.cs" Line="224" Column="1" />
+      <File FileName="GenericCollectionsCA/Program.cs" Line="395" Column="21" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
+            <Node name="BookLibrarySystem" expanded="True" />
             <Node name="GenericCollectionsCA" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
@@ -44,9 +49,10 @@
     <String>StaticClassAndMethods/StaticClassAndMethods.csproj</String>
     <String>ExtensionMethods/ExtensionMethods.csproj</String>
     <String>RemoveFromArrayCA/RemoveFromArrayCA.csproj</String>
+    <String>GenericCollectionsCA/GenericCollectionsCA.csproj</String>
   </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.BookLibrarySystem PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.GenericCollectionsCA PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

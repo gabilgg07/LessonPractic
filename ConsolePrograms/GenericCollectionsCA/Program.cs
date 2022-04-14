@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Helper;
 
 namespace GenericCollectionsCA
 {
@@ -17,7 +18,7 @@ namespace GenericCollectionsCA
             List<int> intList = new List<int>();
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("==== List<int> Learning Start ====\n");
+            ConsoleHelper.Header("List<int> Learning Start", '=');
             Console.ForegroundColor = (ConsoleColor)(-1);
 
             // Add verilen type-dan olanlari ancaq mumkundur.
@@ -30,69 +31,54 @@ namespace GenericCollectionsCA
 
             Console.WriteLine("----- intList ----\n");
 
-            foreach (var num in intList)
-            {
-                Console.Write(num + (intList.FindLast(x => true) != num ? ", " : ""));
-            }
+            //foreach (var num in intList)
+            //{
+            //    Console.Write(num + (intList.FindLast(x => true) != num ? ", " : ""));
+            //}
+            // => sadesi))
+            Console.WriteLine(string.Join(", ", intList));
 
 
             // .Remove(value) -> verilen deyere uygun ilk tapdigini silir.
             intList.Remove(7);
 
 
-            Console.WriteLine("\n\n----- intList.Remove(value first -> 7) ----\n");
+            Console.WriteLine("\n----- intList.Remove(value first -> 7) ----\n");
 
-            foreach (var num in intList)
-            {
-                Console.Write(num + (intList.FindLast(x => true) != num ? ", " : ""));
-            }
-
+            Console.WriteLine(string.Join(", ", intList));
 
             // .RemoveAt(index) -> verilen indeksdekini silir.
             intList.RemoveAt(2);
 
 
-            Console.WriteLine("\n\n----- intList.RemoveAt(index -> 2) ----\n");
+            Console.WriteLine("\n----- intList.RemoveAt(index -> 2) ----\n");
 
-            foreach (var num in intList)
-            {
-                Console.Write(num + (intList.FindLast(x => true) != num ? ", " : ""));
-            }
+            Console.WriteLine(string.Join(", ", intList));
 
             // .RemoveRange(begin index, count) -> verilmis indeksden baslayaraq,
             // verilmis say qeder silir.
             intList.RemoveRange(0, 2);
 
 
-            Console.WriteLine("\n\n----- intList.RemoveRange(begin index, count -> 0,2) ----\n");
+            Console.WriteLine("\n----- intList.RemoveRange(begin index, count -> 0,2) ----\n");
 
-            foreach (var num in intList)
-            {
-                Console.Write(num +  (intList.FindLast(x => true) != num ? ", " : ""));
-            }
-
+            Console.WriteLine(string.Join(", ", intList));
 
             // .RemoveAll(predicate) -> verilen sert(predicate)-e
             // true cavabi qaytaranlarin hamisini silir.
             intList.RemoveAll(x => x > 9);
 
 
-            Console.WriteLine("\n\n----- intList.RemoveAll(predicate -> x => x > 9) ----\n");
+            Console.WriteLine("\n----- intList.RemoveAll(predicate -> x => x > 9) ----\n");
 
-            foreach (var num in intList)
-            {
-                Console.Write(num +  (intList.FindLast(x => true) != num ? ", " : ""));
-            }
+            Console.WriteLine(string.Join(", ", intList));
 
             intList.RemoveAll(x => true); // bele bir basa true verersek hamisini silecek.
 
 
-            Console.WriteLine("\n\n----- intList.RemoveAll(x => true) ----\n");
+            Console.WriteLine("\n----- intList.RemoveAll(x => true) ----\n");
 
-            foreach (var num in intList)
-            {
-                Console.Write(num +  (intList.FindLast(x => true) != num ? ", " : ""));
-            }
+            Console.WriteLine(string.Join(", ", intList));
 
             intList.Add(44);
             intList.Add(777);
@@ -101,25 +87,19 @@ namespace GenericCollectionsCA
             intList.Add(2);
             intList.Add(321);
 
-            Console.WriteLine("\n\n----- intList add again ----\n");
+            Console.WriteLine("\n----- intList add again ----\n");
 
-            foreach (var num in intList)
-            {
-                Console.Write(num +  (intList.FindLast(x => true) != num ? ", " : ""));
-            }
+            Console.WriteLine(string.Join(", ", intList));
 
             // .Clear() elave sert yoxlanmada bir basa hamisini silir.
             intList.Clear();
 
-            Console.WriteLine("\n\n----- intList.Clear() ----\n");
+            Console.WriteLine("\n----- intList.Clear() ----\n");
 
-            foreach (var num in intList)
-            {
-                Console.Write(num +  (intList.FindLast(x => true) != num ? ", " : ""));
-            }
+            Console.WriteLine(string.Join(", ", intList));
 
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("\n\n==== List<int> Learning End ====\n");
+            ConsoleHelper.Header("List<int> Learning End", '_');
             Console.ForegroundColor = (ConsoleColor)(-1);
 
             #endregion
@@ -134,7 +114,7 @@ namespace GenericCollectionsCA
             #region List<string>
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("==== List<string> Learning Start ====\n");
+            ConsoleHelper.Header("List<string> Learning Start", '=');
             Console.ForegroundColor = (ConsoleColor)(-1);
 
             List<string> strList = new List<string>();
@@ -151,58 +131,45 @@ namespace GenericCollectionsCA
 
             Console.WriteLine("---- strList ----\n");
 
-            foreach (var str in strList)
-            {
-                Console.Write(str + (strList.FindLast(x => true) != str ? ", " : ""));
-            }
+            //foreach (var str in strList)
+            //{
+            //    Console.Write(str + (strList.FindLast(x => true) != str ? ", " : ""));
+            //}
+
+            Console.WriteLine(string.Join(", ", strList));
 
             strList.RemoveAll(s => s.Length <= 6);
 
-            Console.WriteLine("\n\n---- strList.RemoveAll(s=>s.Length<=6) ----\n");
+            Console.WriteLine("\n---- strList.RemoveAll(s=>s.Length<=6) ----\n");
 
-            foreach (var str in strList)
-            {
-                Console.Write(str + (strList.FindLast(x => true) != str ? ", " : ""));
-            }
+            Console.WriteLine(string.Join(", ", strList));
 
             strList.RemoveAll(s => s[0] == 'M');
 
-            Console.WriteLine("\n\n---- strList.RemoveAll(s=>s[0]=='m') ----\n");
+            Console.WriteLine("\n---- strList.RemoveAll(s=>s[0]=='m') ----\n");
 
-            foreach (var str in strList)
-            {
-                Console.Write(str + (strList.FindLast(x => true) != str ? ", " : ""));
-            }
+            Console.WriteLine(string.Join(", ", strList));
 
             strList.RemoveAll(s => s.StartsWith("Hes"));
 
-            Console.WriteLine("\n\n---- strList.RemoveAll(s=>s.StartsWith(\"Hes\")) ----\n");
+            Console.WriteLine("\n---- strList.RemoveAll(s=>s.StartsWith(\"Hes\")) ----\n");
 
-            foreach (var str in strList)
-            {
-                Console.Write(str + (strList.FindLast(x => true) != str ? ", " : ""));
-            }
+            Console.WriteLine(string.Join(", ", strList));
 
             strList.RemoveAll(s => s.EndsWith("zade"));
 
-            Console.WriteLine("\n\n---- strList.RemoveAll(s=>s.EndsWith(\"zade\")) ----\n");
+            Console.WriteLine("\n---- strList.RemoveAll(s=>s.EndsWith(\"zade\")) ----\n");
 
-            foreach (var str in strList)
-            {
-                Console.Write(str + (strList.FindLast(x => true) != str ? ", " : ""));
-            }
+            Console.WriteLine(string.Join(", ", strList));
 
             strList.RemoveAll(s => s.Contains("bb"));
 
-            Console.WriteLine("\n\n---- strList.RemoveAll(s=>s.Contains(\"bb\")) ----\n");
+            Console.WriteLine("\n---- strList.RemoveAll(s=>s.Contains(\"bb\")) ----\n");
 
-            foreach (var str in strList)
-            {
-                Console.Write(str + (strList.FindLast(x => true) != str ? ", " : ""));
-            }
+            Console.WriteLine(string.Join(", ", strList));
 
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("\n\n==== List<string> Learning End ====\n");
+            ConsoleHelper.Header("List<string> Learning End", '_');
             Console.ForegroundColor = (ConsoleColor)(-1);
 
             #endregion
@@ -217,7 +184,7 @@ namespace GenericCollectionsCA
             #region Dictionary
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("==== Dictionary<TKey,TValue> Learning Start ====\n");
+            ConsoleHelper.Header("Dictionary<TKey,TValue> Learning Start", '=');
             Console.ForegroundColor = (ConsoleColor)(-1);
 
             //Dictionary<string, int> keyValuePairs = new Dictionary<string, int>();
@@ -246,7 +213,7 @@ namespace GenericCollectionsCA
             Console.WriteLine();
 
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("\n\n==== Dictionary<TKey,TValue> Learning End ====\n");
+            ConsoleHelper.Header("Dictionary<TKey,TValue> Learning End", '_');
             Console.ForegroundColor = (ConsoleColor)(-1);
 
             #endregion
@@ -262,7 +229,7 @@ namespace GenericCollectionsCA
             #region SortedList generic type
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("==== SortedList<TKey,TValue> Learning Start ====\n");
+            ConsoleHelper.Header("SortedList<TKey,TValue> Learning Start", '=');
             Console.ForegroundColor = (ConsoleColor)(-1);
 
             //SortedList<string, int> keyValuePairs = new Dictionary<string, int>();
@@ -288,7 +255,7 @@ namespace GenericCollectionsCA
             Console.WriteLine();
 
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("\n\n==== SortedList<TKey,TValue> Learning End ====\n");
+            ConsoleHelper.Header("SortedList<TKey,TValue> Learning End", '_');
             Console.ForegroundColor = (ConsoleColor)(-1);
 
             #endregion
@@ -368,13 +335,15 @@ namespace GenericCollectionsCA
             torba.Push(76);
             Console.WriteLine("---- Stack<int> torba ----\n");
 
-            foreach (var item in torba)
-            {
-                Console.Write(item + ", ");
-            }
+            //foreach (var item in torba)
+            //{
+            //    Console.Write(item + ", ");
+            //}
+
+            Console.WriteLine(string.Join(", ", torba));
 
             int peek = torba.Peek(); // bize novbede olan item-i gosterir.
-            Console.WriteLine($"\n\nOn next peek: {peek}\n");
+            Console.WriteLine($"\nOn next peek: {peek}\n");
 
 
             int pop = torba.Pop(); // bize cixarilan item-i qaytarir.
@@ -392,12 +361,14 @@ namespace GenericCollectionsCA
 
             Console.WriteLine("---- Queue<string> boru ----\n");
 
-            foreach (var item in boru)
-            {
-                Console.Write(item + ", ");
-            }
+            //foreach (var item in boru)
+            //{
+            //    Console.Write(item + ", ");
+            //}
 
-            Console.WriteLine($"\n\nboru.Dequeue(): {boru.Dequeue()}\n"); // cixarilan item-i qaytarir
+            Console.WriteLine(string.Join(", ", boru));
+
+            Console.WriteLine($"\nboru.Dequeue(): {boru.Dequeue()}\n"); // cixarilan item-i qaytarir
             Console.WriteLine($"boru.Peek(): {boru.Peek()}\n"); // novbede olani
 
 
