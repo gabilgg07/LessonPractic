@@ -1,17 +1,18 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{2B177E87-594A-4123-BE45-914B29E3EBFA}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="GenericTypes/Person.cs">
     <Files>
-      <File FileName="GenericTypes/Program.cs" Line="11" Column="14" />
-      <File FileName="GenericTypes/StringStore.cs" Line="20" Column="1" />
-      <File FileName="Helper/ConsoleHelper.cs" Line="216" Column="1" />
-      <File FileName="GenericTypes/GenericStore.cs" Line="1" Column="1" />
+      <File FileName="GenericTypes/Program.cs" Line="20" Column="66" />
+      <File FileName="Helper/ConsoleHelper.cs" />
+      <File FileName="GenericTypes/GenericStore.cs" Line="25" Column="12" />
+      <File FileName="GenericTypes/DataTransform.cs" Line="19" Column="39" />
+      <File FileName="GenericTypes/Person.cs" Line="10" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
             <Node name="GenericTypes" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Person.cs" selected="True" />
             </Node>
             <Node name="Helper" expanded="True" />
           </Node>
