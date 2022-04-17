@@ -11,3 +11,16 @@
 /Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/ConsoleProperties/obj/Debug/netcoreapp3.1/ConsoleProperties.dll
 /Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/ConsoleProperties/obj/Debug/netcoreapp3.1/ConsoleProperties.pdb
 /Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/ConsoleProperties/obj/Debug/netcoreapp3.1/ConsoleProperties.genruntimeconfig.cache
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/ConsoleProperties/bin/Debug/netcoreapp3.1/ConsoleProperties.deps.json
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/ConsoleProperties/bin/Debug/netcoreapp3.1/ConsoleProperties.runtimeconfig.json
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/ConsoleProperties/bin/Debug/netcoreapp3.1/ConsoleProperties.runtimeconfig.dev.json
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/ConsoleProperties/bin/Debug/netcoreapp3.1/ConsoleProperties.dll
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/ConsoleProperties/bin/Debug/netcoreapp3.1/ConsoleProperties.pdb
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/ConsoleProperties/obj/Debug/netcoreapp3.1/ConsoleProperties.csproj.AssemblyReference.cache
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/ConsoleProperties/obj/Debug/netcoreapp3.1/ConsoleProperties.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/ConsoleProperties/obj/Debug/netcoreapp3.1/ConsoleProperties.AssemblyInfoInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/ConsoleProperties/obj/Debug/netcoreapp3.1/ConsoleProperties.AssemblyInfo.cs
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/ConsoleProperties/obj/Debug/netcoreapp3.1/ConsoleProperties.csproj.CoreCompileInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/ConsoleProperties/obj/Debug/netcoreapp3.1/ConsoleProperties.dll
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/ConsoleProperties/obj/Debug/netcoreapp3.1/ConsoleProperties.pdb
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/ConsoleProperties/obj/Debug/netcoreapp3.1/ConsoleProperties.genruntimeconfig.cache

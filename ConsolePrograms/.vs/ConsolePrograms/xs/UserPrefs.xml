@@ -1,56 +1,53 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{2B177E87-594A-4123-BE45-914B29E3EBFA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GenericTypes/Person.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{9DE2ED76-08D7-454E-B93C-AF7ECACD8307}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TryCatchFinallyExceptions/Program.cs">
     <Files>
-      <File FileName="GenericTypes/Program.cs" Line="20" Column="66" />
-      <File FileName="Helper/ConsoleHelper.cs" />
-      <File FileName="GenericTypes/GenericStore.cs" Line="25" Column="12" />
-      <File FileName="GenericTypes/DataTransform.cs" Line="19" Column="39" />
-      <File FileName="GenericTypes/Person.cs" Line="10" Column="25" />
+      <File FileName="GenericTypes/Program.cs" Line="1" Column="1" />
+      <File FileName="TryCatchFinallyExceptions/Program.cs" Line="15" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
-            <Node name="GenericTypes" expanded="True">
-              <Node name="Person.cs" selected="True" />
+            <Node name="TryCatchFinallyExceptions" expanded="True">
+              <Node name="Program.cs" selected="True" />
             </Node>
-            <Node name="Helper" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TryCatchFinallyExceptions FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>
     <String>OOP/EncapsulationLesson/InheritanceLesson/InheritanceLesson.csproj</String>
-    <String>AdditionalExplanations/AdditionalExplanations.csproj</String>
-    <String>AddPersonToArray/AddPersonToArray.csproj</String>
-    <String>CodeOnCalendar/CodeOnCalendar.csproj</String>
-    <String>EnumType/EnumType.csproj</String>
     <String>OOP/AbstractionLesson/AbstractionLesson.csproj</String>
     <String>OOP/EncapsulationLesson/EncapsulationLesson.csproj</String>
     <String>OOP/InheritenceLesson/InheritenceLesson.csproj</String>
     <String>OOP/PolymorphismLesson/PolymorphismLesson.csproj</String>
     <String>PropertiesEncapsulation/PropertiesEncapsulation.csproj</String>
+    <String>BoxingUnboxing/BoxingUnboxing.csproj</String>
+    <String>AccessModifiers/AccessModifiers.csproj</String>
+    <String>AccessModifierTestingLibrary/AccessModifierTestingLibrary.csproj</String>
+    <String>AdditionalExplanations/AdditionalExplanations.csproj</String>
+    <String>AddPersonToArray/AddPersonToArray.csproj</String>
+    <String>BookLibrarySystem/BookLibrarySystem.csproj</String>
     <String>CastingComplexTypes/CastingComplexTypes.csproj</String>
+    <String>CodeOnCalendar/CodeOnCalendar.csproj</String>
+    <String>ConsoleProperties/ConsoleProperties.csproj</String>
+    <String>EnumType/EnumType.csproj</String>
+    <String>ExtensionMethods/ExtensionMethods.csproj</String>
+    <String>GenericCollectionsCA/GenericCollectionsCA.csproj</String>
+    <String>InterfaceImplementation/InterfaceImplementation.csproj</String>
     <String>IsAndAs_SafeWayCasting/IsAndAs_SafeWayCasting.csproj</String>
     <String>NullishCoalescingOperators/NullishCoalescingOperators.csproj</String>
-    <String>ConsoleProperties/ConsoleProperties.csproj</String>
-    <String>Tasks/Tasks.csproj</String>
-    <String>SealedClass/SealedClass.csproj</String>
-    <String>StructType/StructType.csproj</String>
-    <String>BoxingUnboxing/BoxingUnboxing.csproj</String>
-    <String>AccessModifierTestingLibrary/AccessModifierTestingLibrary.csproj</String>
-    <String>AccessModifiers/AccessModifiers.csproj</String>
-    <String>InterfaceImplementation/InterfaceImplementation.csproj</String>
-    <String>StaticClassAndMethods/StaticClassAndMethods.csproj</String>
-    <String>ExtensionMethods/ExtensionMethods.csproj</String>
     <String>RemoveFromArrayCA/RemoveFromArrayCA.csproj</String>
-    <String>GenericCollectionsCA/GenericCollectionsCA.csproj</String>
-    <String>BookLibrarySystem/BookLibrarySystem.csproj</String>
+    <String>SealedClass/SealedClass.csproj</String>
+    <String>StaticClassAndMethods/StaticClassAndMethods.csproj</String>
+    <String>StructType/StructType.csproj</String>
+    <String>Tasks/Tasks.csproj</String>
+    <String>GenericTypes/GenericTypes.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.GenericTypes PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

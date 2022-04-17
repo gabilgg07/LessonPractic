@@ -14,3 +14,19 @@
 /Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AddPersonToArray/obj/Debug/netcoreapp3.1/AddPersonToArray.dll
 /Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AddPersonToArray/obj/Debug/netcoreapp3.1/AddPersonToArray.pdb
 /Volumes/MySSD/01. Codes/01. VS/03.P511vs/ConsolePrograms/AddPersonToArray/obj/Debug/netcoreapp3.1/AddPersonToArray.genruntimeconfig.cache
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AddPersonToArray/bin/Debug/netcoreapp3.1/AddPersonToArray.deps.json
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AddPersonToArray/bin/Debug/netcoreapp3.1/AddPersonToArray.runtimeconfig.json
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AddPersonToArray/bin/Debug/netcoreapp3.1/AddPersonToArray.runtimeconfig.dev.json
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AddPersonToArray/bin/Debug/netcoreapp3.1/AddPersonToArray.dll
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AddPersonToArray/bin/Debug/netcoreapp3.1/AddPersonToArray.pdb
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AddPersonToArray/bin/Debug/netcoreapp3.1/Helper.dll
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AddPersonToArray/bin/Debug/netcoreapp3.1/Helper.pdb
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AddPersonToArray/obj/Debug/netcoreapp3.1/AddPersonToArray.csproj.AssemblyReference.cache
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AddPersonToArray/obj/Debug/netcoreapp3.1/AddPersonToArray.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AddPersonToArray/obj/Debug/netcoreapp3.1/AddPersonToArray.AssemblyInfoInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AddPersonToArray/obj/Debug/netcoreapp3.1/AddPersonToArray.AssemblyInfo.cs
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AddPersonToArray/obj/Debug/netcoreapp3.1/AddPersonToArray.csproj.CoreCompileInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AddPersonToArray/obj/Debug/netcoreapp3.1/AddPersonToArray.csproj.CopyComplete
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AddPersonToArray/obj/Debug/netcoreapp3.1/AddPersonToArray.dll
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AddPersonToArray/obj/Debug/netcoreapp3.1/AddPersonToArray.pdb
+/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/AddPersonToArray/obj/Debug/netcoreapp3.1/AddPersonToArray.genruntimeconfig.cache

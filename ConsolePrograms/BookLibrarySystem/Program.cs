@@ -55,7 +55,7 @@ namespace BookLibrarySystem
 
         private static void PrintBooks(List<Book> books)
         {
-            ConsoleHelper.Header("Book", ')','(');
+            ConsoleHelper.Header("Book", ')','(',ConsoleColor.Blue);
 
             foreach (var book in books)
             {
