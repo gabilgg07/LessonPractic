@@ -1,31 +1,25 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{34B124B5-132F-4889-A486-D26D81756303}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{84917950-1874-4674-B484-E57F70CD1DBC}|Default">
+  <MonoDevelop.Ide.ItemProperties.Folder17Lesson1 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="106.Lesson/GreenBank/Program.cs">
     <Files>
-      <File FileName="CustomExeptionType/Program.cs" Line="39" Column="50" />
-      <File FileName="106.Lesson/BankAccounting/Account.cs" />
-      <File FileName="106.Lesson/BankAccounting/Card.cs" />
-      <File FileName="106.Lesson/GreenBank/Program.cs" Line="68" Column="39" />
+      <File FileName="106.Lesson/GreenBank/Program.cs" Line="84" Column="31" />
+      <File FileName="Folder17Lesson1/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
             <Node name="106.Lesson" expanded="True">
-              <Node name="App.Plugins" expanded="True" />
-              <Node name="BankAccounting" expanded="True">
-                <Node name="Exceptions" expanded="True" />
-              </Node>
-              <Node name="CustomExeptionType" expanded="True" />
               <Node name="GreenBank" expanded="True">
                 <Node name="Program.cs" selected="True" />
               </Node>
             </Node>
+            <Node name="Folder17Lesson1" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.106.Lesson.CustomExeptionType PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>
     <String>OOP/EncapsulationLesson/InheritanceLesson/InheritanceLesson.csproj</String>
@@ -56,9 +50,12 @@
     <String>GenericTypes/GenericTypes.csproj</String>
     <String>TryCatchFinallyExceptions/TryCatchFinallyExceptions.csproj</String>
     <String>GenericCollectionsCA/GenericCollectionsCA.csproj</String>
+    <String>106.Lesson/GreenBank/GreenBank.csproj</String>
+    <String>CustomExeptionType/CustomExeptionType.csproj</String>
+    <String>106.Lesson/BankAccounting/BankAccounting.csproj</String>
+    <String>106.Lesson/App.Plugins/App.Plugins.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.106.Lesson.GreenBank PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
