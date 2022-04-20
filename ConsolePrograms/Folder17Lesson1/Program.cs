@@ -8,6 +8,8 @@ namespace Folder17Lesson1
         {
             //EnumIsDefined();
 
+            //==================================================================
+
             // Bitwise operatorlar
             // ancaq int type-la isleyir.
             // Binari seviyyede alt-alta yoxlayir.
