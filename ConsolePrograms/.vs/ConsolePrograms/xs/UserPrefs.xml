@@ -1,22 +1,31 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{9DE2ED76-08D7-454E-B93C-AF7ECACD8307}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TryCatchFinallyExceptions/Program.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{34B124B5-132F-4889-A486-D26D81756303}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="106.Lesson/GreenBank/Program.cs">
     <Files>
-      <File FileName="GenericTypes/Program.cs" Line="1" Column="1" />
-      <File FileName="TryCatchFinallyExceptions/Program.cs" Line="15" Column="1" />
+      <File FileName="CustomExeptionType/Program.cs" Line="39" Column="50" />
+      <File FileName="106.Lesson/BankAccounting/Account.cs" />
+      <File FileName="106.Lesson/BankAccounting/Card.cs" />
+      <File FileName="106.Lesson/GreenBank/Program.cs" Line="68" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
-            <Node name="TryCatchFinallyExceptions" expanded="True">
-              <Node name="Program.cs" selected="True" />
+            <Node name="106.Lesson" expanded="True">
+              <Node name="App.Plugins" expanded="True" />
+              <Node name="BankAccounting" expanded="True">
+                <Node name="Exceptions" expanded="True" />
+              </Node>
+              <Node name="CustomExeptionType" expanded="True" />
+              <Node name="GreenBank" expanded="True">
+                <Node name="Program.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.TryCatchFinallyExceptions FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.106.Lesson.CustomExeptionType PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>
     <String>OOP/EncapsulationLesson/InheritanceLesson/InheritanceLesson.csproj</String>
@@ -36,7 +45,6 @@
     <String>ConsoleProperties/ConsoleProperties.csproj</String>
     <String>EnumType/EnumType.csproj</String>
     <String>ExtensionMethods/ExtensionMethods.csproj</String>
-    <String>GenericCollectionsCA/GenericCollectionsCA.csproj</String>
     <String>InterfaceImplementation/InterfaceImplementation.csproj</String>
     <String>IsAndAs_SafeWayCasting/IsAndAs_SafeWayCasting.csproj</String>
     <String>NullishCoalescingOperators/NullishCoalescingOperators.csproj</String>
@@ -46,8 +54,11 @@
     <String>StructType/StructType.csproj</String>
     <String>Tasks/Tasks.csproj</String>
     <String>GenericTypes/GenericTypes.csproj</String>
+    <String>TryCatchFinallyExceptions/TryCatchFinallyExceptions.csproj</String>
+    <String>GenericCollectionsCA/GenericCollectionsCA.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.106.Lesson.GreenBank PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

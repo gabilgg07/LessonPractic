@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\106.Lesson\App.Plugins\App.Plugins.csproj" />
+    <ProjectReference Include="..\106.Lesson\BankAccounting\BankAccounting.csproj" />
+  </ItemGroup>
+</Project>

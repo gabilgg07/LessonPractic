@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CustomExeptionType/1.0.0": {
+        "dependencies": {
+          "App.Plugins": "1.0.0",
+          "BankAccounting": "1.0.0"
+        },
+        "runtime": {
+          "CustomExeptionType.dll": {}
+        }
+      },
+      "App.Plugins/1.0.0": {
+        "runtime": {
+          "App.Plugins.dll": {}
+        }
+      },
+      "BankAccounting/1.0.0": {
+        "runtime": {
+          "BankAccounting.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CustomExeptionType/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "App.Plugins/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BankAccounting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

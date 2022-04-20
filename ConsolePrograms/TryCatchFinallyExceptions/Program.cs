@@ -22,9 +22,9 @@ namespace TryCatchFinallyExceptions
 
                 //Console.WriteLine(arr[5]); => IndexOutOfRangeException error
 
-                string content = System.IO.File.ReadAllText("/Users/macbook/Desktop/Practice/test3.txt");
+                //string content = System.IO.File.ReadAllText("/Users/macbook/Desktop/Practice/test3.txt"); => FileNotFoundException
 
-                Console.WriteLine(content);
+                //Console.WriteLine(content);
             }
             catch (IndexOutOfRangeException ex)
             {
@@ -61,6 +61,10 @@ namespace TryCatchFinallyExceptions
                 // save error with logger
                 // Log(ex.ToString());
                 Console.WriteLine("Zehmet olmasa biraz sonra yeniden yoxlayin");
+            }
+            finally
+            {
+                // is bitti, misal fayli bagla.
             }
 
             Console.ReadKey();

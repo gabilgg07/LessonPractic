@@ -187,6 +187,8 @@ namespace GenericCollectionsCA
             ConsoleHelper.Header("Dictionary<TKey,TValue> Learning Start", '=');
             Console.ForegroundColor = (ConsoleColor)(-1);
 
+            // Dictionary KeyValuePairs type-larindan ibaret bir collection type-dir.
+            // KeyValuePair tek <Key, Value> type-dir. List deyil.
             //Dictionary<string, int> keyValuePairs = new Dictionary<string, int>();
 
             // var ile seliqeli gorunur:
