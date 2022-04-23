@@ -1,18 +1,17 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{593C1B1A-F705-42BA-B3DC-9448051E1B33}|Default">
-  <MonoDevelop.Ide.ItemProperties.DelegatesAndEvents FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BuiltInDelegates/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.DelegatesAndEvents PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DelegatesAndEvents/Program.cs">
     <Files>
-      <File FileName="DelegatesAndEvents/Program.cs" Line="9" Column="1" />
-      <File FileName="BuiltInDelegates/Program.cs" Line="9" Column="31" />
+      <File FileName="DelegatesAndEvents/Program.cs" Line="15" Column="1" />
+      <File FileName="DelegatesAndEvents/TaskStore.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
-            <Node name="BuiltInDelegates" expanded="True">
+            <Node name="DelegatesAndEvents" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
-            <Node name="DelegatesAndEvents" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -53,9 +52,9 @@
     <String>106.Lesson/BankAccounting/BankAccounting.csproj</String>
     <String>106.Lesson/App.Plugins/App.Plugins.csproj</String>
     <String>Folder17Lesson1/Folder17Lesson1.csproj</String>
+    <String>BuiltInDelegates/BuiltInDelegates.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.BuiltInDelegates FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
