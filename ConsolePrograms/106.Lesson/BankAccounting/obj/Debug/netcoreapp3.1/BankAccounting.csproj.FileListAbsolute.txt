@@ -1,7 +1,6 @@
 /Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/106.Lesson/BankAccounting/bin/Debug/netcoreapp3.1/BankAccounting.deps.json
 /Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/106.Lesson/BankAccounting/bin/Debug/netcoreapp3.1/BankAccounting.dll
 /Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/106.Lesson/BankAccounting/bin/Debug/netcoreapp3.1/BankAccounting.pdb
-/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/106.Lesson/BankAccounting/obj/Debug/netcoreapp3.1/BankAccounting.csproj.AssemblyReference.cache
 /Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/106.Lesson/BankAccounting/obj/Debug/netcoreapp3.1/BankAccounting.GeneratedMSBuildEditorConfig.editorconfig
 /Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/106.Lesson/BankAccounting/obj/Debug/netcoreapp3.1/BankAccounting.AssemblyInfoInputs.cache
 /Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/106.Lesson/BankAccounting/obj/Debug/netcoreapp3.1/BankAccounting.AssemblyInfo.cs

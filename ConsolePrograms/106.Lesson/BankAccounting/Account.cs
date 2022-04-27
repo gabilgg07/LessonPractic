@@ -26,6 +26,10 @@ namespace BankAccounting
         public decimal DailyLimit { get; set; }
         public decimal DailyTakedFromLimit { get; set; }
 
+        public event Action<Account, Card, string> OnCardExpired;
+        public event Action<Account, Card, string, decimal> OnDairlyLimitOverflow;
+        public event Action<Account, Card, string, decimal> OnNotEnoughBalance;
+
 
         #region Natamam kod
 
@@ -72,20 +76,26 @@ namespace BankAccounting
             if (!card.IsActive)
             {
                 //throw new Exception("Kart aktiv deyil!");
-                throw new CardExpiredException();
+                //throw new CardExpiredException();
+                OnCardExpired?.Invoke(this, card, "Kart aktiv deyil");
+                return;
             }
 
             if (!CreditMinuseAccess && Balance - amount < 0)
             {
                 //throw new Exception("Balansinizda kifayet qeder mebleg yoxdur!");
-                throw new LimitOverflowException();
+                //throw new LimitOverflowException();
+                OnNotEnoughBalance?.Invoke(this, card, "Balansinizda kifayet qeder mebleg yoxdur", amount);
+                return;
             }
 
             TimeSpan diff = DateTime.Now - dailyCreditAmount.Key;
 
             if (diff.Days < 1 && dailyCreditAmount.Value + amount > DailyLimit)
             {
-                throw new DairlyLimitOverflowException("Gunluk limiti ashmisiniz!");
+                //throw new DairlyLimitOverflowException("Gunluk limiti ashmisiniz!");
+                OnDairlyLimitOverflow?.Invoke(this, card, "Gunluk limiti ashmisiniz", amount);
+                return;
             }
             else if (diff.Days >= 1)
             {

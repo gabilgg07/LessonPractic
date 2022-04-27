@@ -105,6 +105,198 @@ namespace Helper
             }
         }
 
+        public static string IntAZSuffix(int num)
+        {
+            if (num == 0
+                || num % 10 == 6
+                || num % 100 == 40
+                || num % 100 == 60
+                || num % 100 == 90
+                )
+            {
+                return "ı";
+            }
+            else if (num % 10 == 3
+                || num % 10 == 4
+                || (num % 100 == 0 && num / 100 % 10 != 0)
+                )
+            {
+                return "ü";
+            }
+            else if (num % 10 == 9
+                || (num % 10 == 0 && (num / 10 % 10 == 1 || num / 10 % 10 == 3))
+                || (num % 1000000 == 0 && num / 1000000 % 1000 != 0)
+                )
+            {
+                return "u";
+            }
+            else
+            {
+                return "i";
+            }
+        }
+
+        public static string DecimalAZSuffix(decimal num)
+        {
+            if (num * 10 % 10 != 0)
+            {
+                string numStr = num.ToString();
+                int len = numStr.Length;
+
+                if (numStr[^1] == '6' || numStr[^1] == '0')
+                {
+                    return "ı";
+                }
+                else if (numStr[^1] == '3' ||
+                         numStr[^1] == '4')
+                {
+                    return "ü";
+                }
+                else if (numStr[^1] == '9')
+                {
+                    return "u";
+                }
+            }
+            else
+            {
+                if (num == 0
+                || num % 10 == 6
+                || num % 100 == 40
+                || num % 100 == 60
+                || num % 100 == 90
+                )
+                {
+                    return "ı";
+                }
+                else if (num % 10 == 3
+                    || num % 10 == 4
+                    || (num % 100 == 0 && num / 100 % 10 != 0)
+                    )
+                {
+                    return "ü";
+                }
+                else if (num % 10 == 9
+                    || (num % 10 == 0 && (num / 10 % 10 == 1 || num / 10 % 10 == 3))
+                    || (num % 1000000 == 0 && num / 1000000 % 1000 != 0)
+                    )
+                {
+                    return "u";
+                }
+            }
+
+            return "i";
+
+        }
+
+        public static string DoubleAZSuffix(double num)
+        {
+            if (num * 10 % 10 != 0)
+            {
+                string numStr = num.ToString();
+                int len = numStr.Length;
+
+                if (numStr[^1] == '6' || numStr[^1] == '0')
+                {
+                    return "ı";
+                }
+                else if (numStr[^1] == '3' ||
+                         numStr[^1] == '4')
+                {
+                    return "ü";
+                }
+                else if (numStr[^1] == '9')
+                {
+                    return "u";
+                }
+            }
+            else
+            {
+                if (num == 0
+                || num % 10 == 6
+                || num % 100 == 40
+                || num % 100 == 60
+                || num % 100 == 90
+                )
+                {
+                    return "ı";
+                }
+                else if (num % 10 == 3
+                    || num % 10 == 4
+                    || (num % 100 == 0 && num / 100 % 10 != 0)
+                    )
+                {
+                    return "ü";
+                }
+                else if (num % 10 == 9
+                    || (num % 10 == 0 && (num / 10 % 10 == 1 || num / 10 % 10 == 3))
+                    || (num % 1000000 == 0 && num / 1000000 % 1000 != 0)
+                    )
+                {
+                    return "u";
+                }
+            }
+
+            return "i";
+
+        }
+
+        public static string DoubleAZSuffixStringWay(double num)
+        {
+            string numStr = num.ToString();
+            int len = numStr.Length;
+            bool hasNotDot = numStr.IndexOf('.') == -1;
+
+            if (numStr[len - 1] == '6' ||
+                (hasNotDot && len >= 2 && numStr[^1] == '0' &&
+                (numStr[^2] == '4' || numStr[^2] == '6' || numStr[^2] == '9')))
+            {
+                return "ı";
+            }
+            else if (numStr[len - 1] == '3' ||
+                numStr[^1] == '4' ||
+                (hasNotDot && len >= 3 && numStr[^1] == '0' && numStr[^2] == '0' && numStr[^3] != '0'))
+            {
+                return "ü";
+            }
+            else if (numStr[^1] == '9')
+            {
+                return "u";
+            }
+            else if (numStr.IndexOf('.') == -1 && len >= 2)
+            {
+                string last2Letters = numStr.Substring(len - 2, 2);
+
+
+                if (last2Letters == "40" || last2Letters == "60" || last2Letters == "90")
+                {
+                    return "ı";
+                }
+                else if (last2Letters == "10" || last2Letters == "30")
+                {
+                    return "u";
+                }
+                else if (len >= 3)
+                {
+                    string last3Letters = numStr.Substring(len - 3, 3);
+
+                    if (last2Letters == "00" && numStr[^3] != '0')
+                    {
+                        return "ü";
+                    }
+                    else if (len >= 7)
+                    {
+                        string last6Letters = numStr.Substring(len - 6, 6);
+                        char Letter7 = numStr[^7];
+                        if (Letter7 != '0' && last6Letters == "000000")
+                        {
+                            return "u";
+                        }
+                    }
+                }
+            }
+            return "i";
+        }
+
         /// <summary>
         /// If difference Now and any date,
         /// Calculated difference from Now and return years.

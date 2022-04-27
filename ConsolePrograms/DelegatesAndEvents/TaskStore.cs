@@ -43,7 +43,7 @@ namespace DelegatesAndEvents
         }
 
         // implement parentden methodu implement edirsen, esasen interfacelerde(override kimi)
-        // implicitly implementation oz uzerinden cagirir methodu.
+        // implicitly implementation oz methodu kimi.
 
         // IEnumerator bize bu classdan yaradan obyektimizi foreach-e sala bilme icazesi yaradir.
         public IEnumerator<string> GetEnumerator()
@@ -54,7 +54,7 @@ namespace DelegatesAndEvents
                 // ve en sonda cixir.
                 // Ancaq IEnumerable-e aid olan bir seydir.
                 // IEnumerable qaytaranda yield yaziriq.
-                // Maassivi tamamladiqdan sonra return edir.
+                // Massivi tamamladiqdan sonra return edir.
                 yield return item;
             }
         }
