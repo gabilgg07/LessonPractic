@@ -9,11 +9,11 @@
     <None Remove="BankAccounting" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Helper\Helper.csproj" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="BankAccounting">
       <HintPath>..\..\..\..\..\..\..\..\Users\macbook\Desktop\Practice\vs\BankAccounting.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Helper\Helper.csproj" />
   </ItemGroup>
 </Project>

@@ -6,8 +6,12 @@
 
   <ItemGroup>
     <None Remove="Exceptions\" />
+    <None Remove="Delegates\" />
+    <None Remove="EventArguments\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Exceptions\" />
+    <Folder Include="Delegates\" />
+    <Folder Include="EventArguments\" />
   </ItemGroup>
 </Project>

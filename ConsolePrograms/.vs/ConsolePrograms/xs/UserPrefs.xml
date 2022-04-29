@@ -1,10 +1,12 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{A02528EE-CCF7-4F18-A554-26A142ADC8BD}|Default">
   <MonoDevelop.Ide.ItemProperties.Banks.KapitalBank.ConsoleApp PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="106.Lesson/BankAccounting/Account.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="KapitalBank.ConsoleApp/Program.cs">
     <Files>
-      <File FileName="106.Lesson/BankAccounting/Account.cs" Line="98" Column="24" />
-      <File FileName="KapitalBank.ConsoleApp/Program.cs" Line="17" Column="78" />
-      <File FileName="Helper/DataHelper.cs" Line="77" Column="61" />
+      <File FileName="106.Lesson/BankAccounting/Account.cs" Line="72" Column="32" />
+      <File FileName="KapitalBank.ConsoleApp/Program.cs" Line="22" Column="38" />
+      <File FileName="Helper/DataHelper.cs" />
+      <File FileName="106.Lesson/BankAccounting/Delegates/CardExpiredHandler.cs" />
+      <File FileName="106.Lesson/BankAccounting/EventArguments/CardExpiredArgs.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,11 +14,17 @@
           <Node name="ConsolePrograms" expanded="True">
             <Node name="106.Lesson" expanded="True">
               <Node name="BankAccounting" expanded="True">
-                <Node name="Account.cs" selected="True" />
+                <Node name="Delegates" expanded="True" />
+                <Node name="EventArguments" expanded="True" />
               </Node>
             </Node>
             <Node name="Banks" expanded="True">
-              <Node name="KapitalBank.ConsoleApp" expanded="True" />
+              <Node name="KapitalBank.ConsoleApp" expanded="True">
+                <Node name="Dependencies" expanded="True">
+                  <Node name="AssemblyDependencies" expanded="True" />
+                </Node>
+                <Node name="Program.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="Helper" expanded="True" />
           </Node>
@@ -61,7 +69,7 @@
     <String>106.Lesson/App.Plugins/App.Plugins.csproj</String>
     <String>106.Lesson/GreenBank/GreenBank.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

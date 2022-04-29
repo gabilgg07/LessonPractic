@@ -1,5 +1,7 @@
 ﻿using System;
 using BankAccounting;
+using BankAccounting.EventArguments;
+using BankAccounting.Exceptions;
 using Helper;
 
 namespace KapitalBank.ConsoleApp
@@ -11,7 +13,7 @@ namespace KapitalBank.ConsoleApp
             ConsoleHelper.SetDefaults();
 
             Account account = new Account("Əli", "Əhədli", "0000007", 500);
-            Card card = new Card("0001-0002-0003-0004",2022,10,654,"0000");
+            Card card = new Card("0001-0002-0003-0004",2022,1,654,"0000");
 
             account.OnCardExpired += Account_OnCardExpired;
             account.OnDairlyLimitOverflow += Account_OnDairlyLimitOverflow;
@@ -38,6 +40,20 @@ namespace KapitalBank.ConsoleApp
             Console.ReadKey();
         }
 
+        private static void Account_OnCardExpired(object sender, CardExpiredArgs e)
+        {
+            Card card = sender as Card;
+
+            if (card == null)
+            {
+                throw new CardExpiredException();
+            }
+            Account account = card.Account;
+
+            Console.WriteLine($"Hormetli {account.Name} {account.Surname}, \n" +
+                $"Kartinizin istifade muddeti {e.ExpiredMonth:00}/{(e.ExpiredYear%100):00} tarixinde bitib");
+        }
+
         private static void Account_OnNotEnoughBalance(Account account, Card card, string msg, decimal amount)
         {
             Console.WriteLine($"Hörmətli {account.Name} {account.Surname}, \n" +
@@ -52,11 +68,5 @@ namespace KapitalBank.ConsoleApp
                 $"Artıq {account.DailyTakedFromLimit} qədərini istifadə etmisiniz.\n" +
                 $"{amount} miqdarında çıxara bilməzsiniz.");
         }
-
-        private static void Account_OnCardExpired(Account account, Card card, string msg)
-        {
-            Console.WriteLine($"Hormetli {account.Name} {account.Surname}, \n" +
-                $"Kartinizin istifade muddeti {card.ExpiredMonth}/{card.ExpiredYear} tarixinde bitib");
-        } 
     }
 }

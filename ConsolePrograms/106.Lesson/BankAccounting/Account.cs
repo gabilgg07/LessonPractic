@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using BankAccounting.Delegates;
+using BankAccounting.EventArguments;
 using BankAccounting.Exceptions;
 
 namespace BankAccounting
@@ -26,7 +28,7 @@ namespace BankAccounting
         public decimal DailyLimit { get; set; }
         public decimal DailyTakedFromLimit { get; set; }
 
-        public event Action<Account, Card, string> OnCardExpired;
+        public event CardExpiredHandler OnCardExpired;
         public event Action<Account, Card, string, decimal> OnDairlyLimitOverflow;
         public event Action<Account, Card, string, decimal> OnNotEnoughBalance;
 
@@ -61,10 +63,24 @@ namespace BankAccounting
 
         internal void Debet(decimal amount, Card card)
         {
+            //if (!card.IsActive)
+            //{
+            //    //throw new Exception("Kart aktiv deyil!");
+            //    throw new CardExpiredException();
+            //}
+
             if (!card.IsActive)
             {
+                var arg = new CardExpiredArgs()
+                {
+                    ExpiredYear = card.ExpiredYear,
+                    ExpiredMonth = card.ExpiredMonth,
+                    Message = "Kart aktiv deyil."
+                };
                 //throw new Exception("Kart aktiv deyil!");
-                throw new CardExpiredException();
+                //throw new CardExpiredException();
+                OnCardExpired?.Invoke(card, arg);
+                return;
             }
 
             Balance += amount;
@@ -75,9 +91,15 @@ namespace BankAccounting
         {
             if (!card.IsActive)
             {
+                var arg = new CardExpiredArgs()
+                {
+                    ExpiredYear = card.ExpiredYear,
+                    ExpiredMonth = card.ExpiredMonth,
+                    Message = "Kart aktiv deyil."
+                };
                 //throw new Exception("Kart aktiv deyil!");
                 //throw new CardExpiredException();
-                OnCardExpired?.Invoke(this, card, "Kart aktiv deyil");
+                OnCardExpired?.Invoke(card, arg);
                 return;
             }
 
