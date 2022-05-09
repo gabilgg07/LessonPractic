@@ -29,8 +29,8 @@ namespace BankAccounting
         public decimal DailyTakedFromLimit { get; set; }
 
         public event CardExpiredHandler OnCardExpired;
-        public event Action<Account, Card, string, decimal> OnDairlyLimitOverflow;
-        public event Action<Account, Card, string, decimal> OnNotEnoughBalance;
+        public event DairlyLimitOverflovHandler OnDairlyLimitOverflow;
+        public event NotEnoughBalanceHandler OnNotEnoughBalance;
 
 
         #region Natamam kod
@@ -91,7 +91,7 @@ namespace BankAccounting
         {
             if (!card.IsActive)
             {
-                var arg = new CardExpiredArgs()
+                var args = new CardExpiredArgs()
                 {
                     ExpiredYear = card.ExpiredYear,
                     ExpiredMonth = card.ExpiredMonth,
@@ -99,7 +99,7 @@ namespace BankAccounting
                 };
                 //throw new Exception("Kart aktiv deyil!");
                 //throw new CardExpiredException();
-                OnCardExpired?.Invoke(card, arg);
+                OnCardExpired?.Invoke(card, args);
                 return;
             }
 
@@ -107,7 +107,15 @@ namespace BankAccounting
             {
                 //throw new Exception("Balansinizda kifayet qeder mebleg yoxdur!");
                 //throw new LimitOverflowException();
-                OnNotEnoughBalance?.Invoke(this, card, "Balansinizda kifayet qeder mebleg yoxdur", amount);
+
+                var args = new NotEnoughBalanceArgs()
+                {
+                    CurrentBalance = Balance,
+                    Amount = amount,
+                    Message = "Balansinizda kifayet qeder mebleg yoxdur"
+                };
+
+                OnNotEnoughBalance?.Invoke(card, args);
                 return;
             }
 
@@ -115,8 +123,17 @@ namespace BankAccounting
 
             if (diff.Days < 1 && dailyCreditAmount.Value + amount > DailyLimit)
             {
+                var args = new DairlyLimitOverflowArgs()
+                {
+                    DLimit = DailyLimit,
+                    TakedFromLimit = DailyTakedFromLimit,
+                    Amount = amount,
+                    Message = "Gunluk limiti ashmisiniz"
+
+                };
+
                 //throw new DairlyLimitOverflowException("Gunluk limiti ashmisiniz!");
-                OnDairlyLimitOverflow?.Invoke(this, card, "Gunluk limiti ashmisiniz", amount);
+                OnDairlyLimitOverflow?.Invoke(card, args);
                 return;
             }
             else if (diff.Days >= 1)
