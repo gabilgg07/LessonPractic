@@ -1,19 +1,22 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{1D16333B-4B92-4A6D-8C89-77956475E9CC}|Default">
-  <MonoDevelop.Ide.ItemProperties.AnonymousMethodsCApp FirstBuild="True" />
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{F13F04FC-B0C5-41B6-8EE8-D9D158C0F904}|Default">
+  <MonoDevelop.Ide.ItemProperties.AnonymousMethodsCApp PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="AnonymousMethodsCApp/Program.cs">
     <Files>
-      <File FileName="106.Lesson/BankAccounting/Account.cs" Line="114" Column="37" />
-      <File FileName="KapitalBank.ConsoleApp/Program.cs" Line="59" Column="1" />
-      <File FileName="106.Lesson/BankAccounting/EventArguments/NotEnoughBalanceArgs.cs" Line="10" Column="6" />
-      <File FileName="106.Lesson/BankAccounting/Card.cs" Line="1" Column="1" />
-      <File FileName="AnonymousMethodsCApp/Program.cs" Line="1" Column="1" />
+      <File FileName="AnonymousMethodsCApp/Program.cs" Line="42" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
-            <Node name="AnonymousMethodsCApp" expanded="True" />
-            <Node name="ExistingProject" selected="True" />
+            <Node name="106.Lesson" expanded="True">
+              <Node name="BankAccounting" expanded="True">
+                <Node name="EventArguments" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Banks" expanded="True" />
+            <Node name="AnonymousMethodsCApp" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -58,7 +61,7 @@
     <String>106.Lesson/GreenBank/GreenBank.csproj</String>
     <String>KapitalBank.ConsoleApp/KapitalBank.ConsoleApp.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
