@@ -112,6 +112,7 @@ namespace BankAccounting
                 {
                     CurrentBalance = Balance,
                     Amount = amount,
+                    MinusCredit = CreditMinuseAccess,
                     Message = "Balansinizda kifayet qeder mebleg yoxdur"
                 };
 
