@@ -1,0 +1,83 @@
+https://www.mikesdotnetting.com/article/46/c-regular-expressions-cheat-sheet
+
+https://regexr.com
+
+EMAIL PATTERN
+^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$
+
+string pattern = @"^(?<countryCode>\+994|0)(?<operatorCode>50|51|55|70|77|10|99)-(?<number>\d{3}-\d{2}-\d{2})$",
+https://techcommunity.microsoft.com/t5/windows-blog-archive/pushing-the-limits-of-windows-processes-and-threads/ba-p/723824
+http://kamranaeff1994-002-site3.ctempurl.com/htmls/index3.html
+https://www.c-sharpcorner.com/article/task-parallel-library-101-using-c-sharp/
+https://github.com/kamranAeff/AdvancedSolutions
+https://www.tutorialspoint.com/csharp/csharp_multithreading.htm
+
+
+
+
+
+Task1 - Riyazi alqoritmalar
+Task2 - 
+Task3 -
+Task4 - 
+
+
+Aytaj Zulfuqarova
+aytajez@code.edu.az
+Member
+Dec 15, 2020
+ Profile image for Gulnar Mammadova
+Gulnar Mammadova
+gulnarvma@code.edu.az
+Member
+Dec 4, 2020
+ Profile image for Gulsum Bayramova
+Gulsum Bayramova
+gulsumrb@code.edu.az
+Member
+Dec 4, 2020
+ Profile image for Huseyn Gambarov
+Huseyn Gambarov
+huseynng@code.edu.az
+Member
+Dec 22, 2020
+ Profile image for Ilkin Nazarli
+Ilkin Nazarli
+ilkinsn@code.edu.az
+Member
+Dec 7, 2020
+ Profile image for Matin Akhundlu
+Matin Akhundlu
+matinha@code.edu.az
+Member
+Dec 4, 2020
+ Profile image for Natig Mikayilov
+Natig Mikayilov
+natigem@code.edu.az
+Member
+Dec 4, 2020
+ Profile image for Rafig Javadov
+Rafig Javadov
+rafigshj@code.edu.az
+Member
+Dec 4, 2020
+ Profile image for Rovshan Jafarov
+Rovshan Jafarov
+rovshannj@code.edu.az
+Member
+Dec 4, 2020
+ Profile image for Saftar akbarov
+Saftar akbarov
+saftarea@code.edu.az
+Member
+Dec 9, 2020
+ Profile image for Surayya Hasansazada
+Surayya Hasansazada
+surayyaah@code.edu.az
+Member
+Dec 4, 2020
+ Profile image for Vusal Ahmadli
+Vusal Ahmadli
+vusalna@code.edu.az
+Member
+Dec 4, 2020

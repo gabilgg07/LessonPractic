@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{CC90A188-7763-4E01-B15D-98710F004D41}|Default">
+  <MonoDevelop.Ide.ItemProperties.RegexSampleCA PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RegexSampleCA/Program.cs">
+    <Files>
+      <File FileName="RegexSampleCA/Program.cs" Line="44" Column="34" />
+      <File FileName="RegexSampleCA/AppCode/Extensions/RegexExtension.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RegexSolution" expanded="True">
+            <Node name="RegexSampleCA" expanded="True">
+              <Node name="AppCode" expanded="True">
+                <Node name="Extensions" expanded="True" />
+              </Node>
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
