@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/Helper/Helper.csproj",
+      "projectUniqueName": "/Volumes/MySSD/01.Codes/01. VS/01.LessonsCodes/LessonPractic/ConsolePrograms/Helper/Helper.csproj",
       "projectName": "Helper",
-      "projectPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/Helper/Helper.csproj",
+      "projectPath": "/Volumes/MySSD/01.Codes/01. VS/01.LessonsCodes/LessonPractic/ConsolePrograms/Helper/Helper.csproj",
       "packagesPath": "/Users/macbook/.nuget/packages/",
-      "outputPath": "/Volumes/MySSD/01. Codes/01. VS/05. vsCloneGit/LessonPractic/ConsolePrograms/Helper/obj/",
+      "outputPath": "/Volumes/MySSD/01.Codes/01. VS/01.LessonsCodes/LessonPractic/ConsolePrograms/Helper/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/macbook/.config/NuGet/NuGet.Config"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
       }
     }
   }

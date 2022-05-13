@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BD_Alert_App/1.0.0": {
+        "runtime": {
+          "BD_Alert_App.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BD_Alert_App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

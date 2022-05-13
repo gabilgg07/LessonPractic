@@ -1,0 +1,26 @@
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/Alert_App/BD_Alert_App/bin/Debug/netcoreapp3.1/BD_Alert_App.deps.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/Alert_App/BD_Alert_App/bin/Debug/netcoreapp3.1/BD_Alert_App.runtimeconfig.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/Alert_App/BD_Alert_App/bin/Debug/netcoreapp3.1/BD_Alert_App.runtimeconfig.dev.json
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/Alert_App/BD_Alert_App/bin/Debug/netcoreapp3.1/BD_Alert_App.dll
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/Alert_App/BD_Alert_App/bin/Debug/netcoreapp3.1/BD_Alert_App.pdb
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/Alert_App/BD_Alert_App/obj/Debug/netcoreapp3.1/BD_Alert_App.csproj.AssemblyReference.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/Alert_App/BD_Alert_App/obj/Debug/netcoreapp3.1/BD_Alert_App.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/Alert_App/BD_Alert_App/obj/Debug/netcoreapp3.1/BD_Alert_App.AssemblyInfoInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/Alert_App/BD_Alert_App/obj/Debug/netcoreapp3.1/BD_Alert_App.AssemblyInfo.cs
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/Alert_App/BD_Alert_App/obj/Debug/netcoreapp3.1/BD_Alert_App.csproj.CoreCompileInputs.cache
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/Alert_App/BD_Alert_App/obj/Debug/netcoreapp3.1/BD_Alert_App.dll
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/Alert_App/BD_Alert_App/obj/Debug/netcoreapp3.1/BD_Alert_App.pdb
+/Volumes/MySSD/01. Codes/01. VS/03.P511vs/Alert_App/BD_Alert_App/obj/Debug/netcoreapp3.1/BD_Alert_App.genruntimeconfig.cache
+/Volumes/MySSD/01.Codes/01. VS/04.P511vs/Alert_App/BD_Alert_App/bin/Debug/netcoreapp3.1/BD_Alert_App.deps.json
+/Volumes/MySSD/01.Codes/01. VS/04.P511vs/Alert_App/BD_Alert_App/bin/Debug/netcoreapp3.1/BD_Alert_App.runtimeconfig.json
+/Volumes/MySSD/01.Codes/01. VS/04.P511vs/Alert_App/BD_Alert_App/bin/Debug/netcoreapp3.1/BD_Alert_App.runtimeconfig.dev.json
+/Volumes/MySSD/01.Codes/01. VS/04.P511vs/Alert_App/BD_Alert_App/bin/Debug/netcoreapp3.1/BD_Alert_App.dll
+/Volumes/MySSD/01.Codes/01. VS/04.P511vs/Alert_App/BD_Alert_App/bin/Debug/netcoreapp3.1/BD_Alert_App.pdb
+/Volumes/MySSD/01.Codes/01. VS/04.P511vs/Alert_App/BD_Alert_App/obj/Debug/netcoreapp3.1/BD_Alert_App.csproj.AssemblyReference.cache
+/Volumes/MySSD/01.Codes/01. VS/04.P511vs/Alert_App/BD_Alert_App/obj/Debug/netcoreapp3.1/BD_Alert_App.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/MySSD/01.Codes/01. VS/04.P511vs/Alert_App/BD_Alert_App/obj/Debug/netcoreapp3.1/BD_Alert_App.AssemblyInfoInputs.cache
+/Volumes/MySSD/01.Codes/01. VS/04.P511vs/Alert_App/BD_Alert_App/obj/Debug/netcoreapp3.1/BD_Alert_App.AssemblyInfo.cs
+/Volumes/MySSD/01.Codes/01. VS/04.P511vs/Alert_App/BD_Alert_App/obj/Debug/netcoreapp3.1/BD_Alert_App.csproj.CoreCompileInputs.cache
+/Volumes/MySSD/01.Codes/01. VS/04.P511vs/Alert_App/BD_Alert_App/obj/Debug/netcoreapp3.1/BD_Alert_App.dll
+/Volumes/MySSD/01.Codes/01. VS/04.P511vs/Alert_App/BD_Alert_App/obj/Debug/netcoreapp3.1/BD_Alert_App.pdb
+/Volumes/MySSD/01.Codes/01. VS/04.P511vs/Alert_App/BD_Alert_App/obj/Debug/netcoreapp3.1/BD_Alert_App.genruntimeconfig.cache
