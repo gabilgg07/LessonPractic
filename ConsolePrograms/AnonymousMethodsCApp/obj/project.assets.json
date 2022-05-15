@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/MySSD/01.Codes/01. VS/01.LessonsCodes/LessonPractic/ConsolePrograms/AnonymousMethodsCApp/AnonymousMethodsCApp.csproj",
+      "projectUniqueName": "/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/AnonymousMethodsCApp/AnonymousMethodsCApp.csproj",
       "projectName": "AnonymousMethodsCApp",
-      "projectPath": "/Volumes/MySSD/01.Codes/01. VS/01.LessonsCodes/LessonPractic/ConsolePrograms/AnonymousMethodsCApp/AnonymousMethodsCApp.csproj",
+      "projectPath": "/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/AnonymousMethodsCApp/AnonymousMethodsCApp.csproj",
       "packagesPath": "/Users/macbook/.nuget/packages/",
-      "outputPath": "/Volumes/MySSD/01.Codes/01. VS/01.LessonsCodes/LessonPractic/ConsolePrograms/AnonymousMethodsCApp/obj/",
+      "outputPath": "/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/AnonymousMethodsCApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/macbook/.config/NuGet/NuGet.Config"

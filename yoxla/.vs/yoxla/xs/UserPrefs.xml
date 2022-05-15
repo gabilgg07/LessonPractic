@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{941845E5-65D0-4E81-867E-51AE32F485FC}|Default">
+  <MonoDevelop.Ide.ItemProperties.Methods PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Classlar/Client.cs">
+    <Files>
+      <File FileName="Methods/Program.cs" Line="21" Column="53" />
+      <File FileName="Classlar/Program.cs" Line="45" Column="1" />
+      <File FileName="Classlar/Calculator.cs" Line="1" Column="1" />
+      <File FileName="Classlar/Client.cs" Line="1" Column="1" />
+      <File FileName="Classlar/Person.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="yoxla" expanded="True">
+            <Node name="Classlar" expanded="True">
+              <Node name="Client.cs" selected="True" />
+            </Node>
+            <Node name="Methods" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>yoxla/yoxla.csproj</String>
+    <String>LoopLesson/LoopLesson.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.Classlar PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

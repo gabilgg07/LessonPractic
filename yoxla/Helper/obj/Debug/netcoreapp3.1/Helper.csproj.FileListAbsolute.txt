@@ -1,0 +1,10 @@
+/Users/macbook/Projects/yoxla/Helper/bin/Debug/netcoreapp3.1/Helper.deps.json
+/Users/macbook/Projects/yoxla/Helper/bin/Debug/netcoreapp3.1/Helper.dll
+/Users/macbook/Projects/yoxla/Helper/bin/Debug/netcoreapp3.1/Helper.pdb
+/Users/macbook/Projects/yoxla/Helper/obj/Debug/netcoreapp3.1/Helper.csproj.AssemblyReference.cache
+/Users/macbook/Projects/yoxla/Helper/obj/Debug/netcoreapp3.1/Helper.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Projects/yoxla/Helper/obj/Debug/netcoreapp3.1/Helper.AssemblyInfoInputs.cache
+/Users/macbook/Projects/yoxla/Helper/obj/Debug/netcoreapp3.1/Helper.AssemblyInfo.cs
+/Users/macbook/Projects/yoxla/Helper/obj/Debug/netcoreapp3.1/Helper.csproj.CoreCompileInputs.cache
+/Users/macbook/Projects/yoxla/Helper/obj/Debug/netcoreapp3.1/Helper.dll
+/Users/macbook/Projects/yoxla/Helper/obj/Debug/netcoreapp3.1/Helper.pdb

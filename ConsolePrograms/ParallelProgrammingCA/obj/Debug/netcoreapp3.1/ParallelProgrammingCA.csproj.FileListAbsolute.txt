@@ -1,0 +1,13 @@
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgrammingCA/bin/Debug/netcoreapp3.1/ParallelProgrammingCA.deps.json
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgrammingCA/bin/Debug/netcoreapp3.1/ParallelProgrammingCA.runtimeconfig.json
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgrammingCA/bin/Debug/netcoreapp3.1/ParallelProgrammingCA.runtimeconfig.dev.json
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgrammingCA/bin/Debug/netcoreapp3.1/ParallelProgrammingCA.dll
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgrammingCA/bin/Debug/netcoreapp3.1/ParallelProgrammingCA.pdb
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgrammingCA/obj/Debug/netcoreapp3.1/ParallelProgrammingCA.csproj.AssemblyReference.cache
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgrammingCA/obj/Debug/netcoreapp3.1/ParallelProgrammingCA.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgrammingCA/obj/Debug/netcoreapp3.1/ParallelProgrammingCA.AssemblyInfoInputs.cache
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgrammingCA/obj/Debug/netcoreapp3.1/ParallelProgrammingCA.AssemblyInfo.cs
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgrammingCA/obj/Debug/netcoreapp3.1/ParallelProgrammingCA.csproj.CoreCompileInputs.cache
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgrammingCA/obj/Debug/netcoreapp3.1/ParallelProgrammingCA.dll
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgrammingCA/obj/Debug/netcoreapp3.1/ParallelProgrammingCA.pdb
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgrammingCA/obj/Debug/netcoreapp3.1/ParallelProgrammingCA.genruntimeconfig.cache

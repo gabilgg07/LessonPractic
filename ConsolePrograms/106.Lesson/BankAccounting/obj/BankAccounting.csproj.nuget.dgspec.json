@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/MySSD/01.Codes/01. VS/01.LessonsCodes/LessonPractic/ConsolePrograms/106.Lesson/BankAccounting/BankAccounting.csproj": {}
+    "/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/106.Lesson/BankAccounting/BankAccounting.csproj": {}
   },
   "projects": {
-    "/Volumes/MySSD/01.Codes/01. VS/01.LessonsCodes/LessonPractic/ConsolePrograms/106.Lesson/BankAccounting/BankAccounting.csproj": {
+    "/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/106.Lesson/BankAccounting/BankAccounting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/MySSD/01.Codes/01. VS/01.LessonsCodes/LessonPractic/ConsolePrograms/106.Lesson/BankAccounting/BankAccounting.csproj",
+        "projectUniqueName": "/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/106.Lesson/BankAccounting/BankAccounting.csproj",
         "projectName": "BankAccounting",
-        "projectPath": "/Volumes/MySSD/01.Codes/01. VS/01.LessonsCodes/LessonPractic/ConsolePrograms/106.Lesson/BankAccounting/BankAccounting.csproj",
+        "projectPath": "/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/106.Lesson/BankAccounting/BankAccounting.csproj",
         "packagesPath": "/Users/macbook/.nuget/packages/",
-        "outputPath": "/Volumes/MySSD/01.Codes/01. VS/01.LessonsCodes/LessonPractic/ConsolePrograms/106.Lesson/BankAccounting/obj/",
+        "outputPath": "/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/106.Lesson/BankAccounting/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/macbook/.config/NuGet/NuGet.Config"

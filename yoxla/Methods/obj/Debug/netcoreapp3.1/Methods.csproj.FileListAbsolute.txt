@@ -1,0 +1,16 @@
+/Users/macbook/Projects/yoxla/Methods/bin/Debug/netcoreapp3.1/Methods.deps.json
+/Users/macbook/Projects/yoxla/Methods/bin/Debug/netcoreapp3.1/Methods.runtimeconfig.json
+/Users/macbook/Projects/yoxla/Methods/bin/Debug/netcoreapp3.1/Methods.runtimeconfig.dev.json
+/Users/macbook/Projects/yoxla/Methods/bin/Debug/netcoreapp3.1/Methods.dll
+/Users/macbook/Projects/yoxla/Methods/bin/Debug/netcoreapp3.1/Methods.pdb
+/Users/macbook/Projects/yoxla/Methods/bin/Debug/netcoreapp3.1/Helper.dll
+/Users/macbook/Projects/yoxla/Methods/obj/Debug/netcoreapp3.1/Methods.csproj.AssemblyReference.cache
+/Users/macbook/Projects/yoxla/Methods/obj/Debug/netcoreapp3.1/Methods.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Projects/yoxla/Methods/obj/Debug/netcoreapp3.1/Methods.AssemblyInfoInputs.cache
+/Users/macbook/Projects/yoxla/Methods/obj/Debug/netcoreapp3.1/Methods.AssemblyInfo.cs
+/Users/macbook/Projects/yoxla/Methods/obj/Debug/netcoreapp3.1/Methods.csproj.CoreCompileInputs.cache
+/Users/macbook/Projects/yoxla/Methods/obj/Debug/netcoreapp3.1/Methods.csproj.CopyComplete
+/Users/macbook/Projects/yoxla/Methods/obj/Debug/netcoreapp3.1/Methods.dll
+/Users/macbook/Projects/yoxla/Methods/obj/Debug/netcoreapp3.1/Methods.pdb
+/Users/macbook/Projects/yoxla/Methods/obj/Debug/netcoreapp3.1/Methods.genruntimeconfig.cache
+/Users/macbook/Projects/yoxla/Methods/bin/Debug/netcoreapp3.1/Helper.pdb

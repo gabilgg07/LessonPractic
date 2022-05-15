@@ -1,25 +1,19 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{F13F04FC-B0C5-41B6-8EE8-D9D158C0F904}|Default">
-  <MonoDevelop.Ide.ItemProperties.AnonymousMethodsCApp PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AnonymousMethodsCApp/Program.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{5920E3DB-B065-4784-BD30-85EEF70727F6}|Default">
+  <MonoDevelop.Ide.ItemProperties.ParallelProgrammingCA PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ParallelProgrammingCA/Program.cs">
     <Files>
-      <File FileName="Helper/ConsoleHelper.cs" Line="6" Column="17" />
-      <File FileName="Helper/DataHelper.cs" Line="1" Column="1" />
-      <File FileName="AnonymousMethodsCApp/Program.cs" Line="6" Column="6" />
+      <File FileName="ParallelProgrammingCA/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
-            <Node name="106.Lesson" expanded="True">
-              <Node name="BankAccounting" expanded="True">
-                <Node name="EventArguments" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="106.Lesson" expanded="True" />
             <Node name="Banks" expanded="True" />
-            <Node name="AnonymousMethodsCApp" expanded="True">
+            <Node name="OOP" expanded="True" />
+            <Node name="ParallelProgrammingCA" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
-            <Node name="Helper" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -62,6 +56,7 @@
     <String>106.Lesson/App.Plugins/App.Plugins.csproj</String>
     <String>106.Lesson/GreenBank/GreenBank.csproj</String>
     <String>KapitalBank.ConsoleApp/KapitalBank.ConsoleApp.csproj</String>
+    <String>AnonymousMethodsCApp/AnonymousMethodsCApp.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

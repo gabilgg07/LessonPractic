@@ -1,0 +1,13 @@
+/Users/macbook/Projects/yoxla/LoopLesson/bin/Debug/netcoreapp3.1/LoopLesson.deps.json
+/Users/macbook/Projects/yoxla/LoopLesson/bin/Debug/netcoreapp3.1/LoopLesson.runtimeconfig.json
+/Users/macbook/Projects/yoxla/LoopLesson/bin/Debug/netcoreapp3.1/LoopLesson.runtimeconfig.dev.json
+/Users/macbook/Projects/yoxla/LoopLesson/bin/Debug/netcoreapp3.1/LoopLesson.dll
+/Users/macbook/Projects/yoxla/LoopLesson/bin/Debug/netcoreapp3.1/LoopLesson.pdb
+/Users/macbook/Projects/yoxla/LoopLesson/obj/Debug/netcoreapp3.1/LoopLesson.csproj.AssemblyReference.cache
+/Users/macbook/Projects/yoxla/LoopLesson/obj/Debug/netcoreapp3.1/LoopLesson.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Projects/yoxla/LoopLesson/obj/Debug/netcoreapp3.1/LoopLesson.AssemblyInfoInputs.cache
+/Users/macbook/Projects/yoxla/LoopLesson/obj/Debug/netcoreapp3.1/LoopLesson.AssemblyInfo.cs
+/Users/macbook/Projects/yoxla/LoopLesson/obj/Debug/netcoreapp3.1/LoopLesson.csproj.CoreCompileInputs.cache
+/Users/macbook/Projects/yoxla/LoopLesson/obj/Debug/netcoreapp3.1/LoopLesson.dll
+/Users/macbook/Projects/yoxla/LoopLesson/obj/Debug/netcoreapp3.1/LoopLesson.pdb
+/Users/macbook/Projects/yoxla/LoopLesson/obj/Debug/netcoreapp3.1/LoopLesson.genruntimeconfig.cache
