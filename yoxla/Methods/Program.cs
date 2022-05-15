@@ -175,9 +175,10 @@ namespace Methods
         private static void OneAndSymbol()
         {
             int test = 9;
-
-            Console.WriteLine(6 < 2 & int.TryParse("78", out test));
-            Console.WriteLine(test);
+            Console.WriteLine("test: " + test);
+            Console.WriteLine("6 < 2 & int.TryParse(\"78\", out test): "
+                + (6 < 2 & int.TryParse("78", out test)));
+            Console.WriteLine("test: " + test);
         }
 
         private static void GetNumberWith9Digit()
@@ -194,7 +195,7 @@ namespace Methods
 
         static bool IntTryParse(string str,out int value )
         {
-            value = default(int);
+            value = default;
             try
             {
                 value = int.Parse(str);
@@ -215,7 +216,7 @@ namespace Methods
             while (num > 0)
             {
                 Array.Resize(ref nums, nums.Length + 1);
-                nums[nums.Length - 1] = num % 10;
+                nums[^1] = num % 10;
                 num /= 10;
             }
 

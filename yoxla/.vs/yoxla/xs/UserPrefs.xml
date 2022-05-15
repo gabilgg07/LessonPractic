@@ -1,21 +1,21 @@
 ﻿<Properties StartupConfiguration="{941845E5-65D0-4E81-867E-51AE32F485FC}|Default">
   <MonoDevelop.Ide.ItemProperties.Methods PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Classlar/Client.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Methods/Program.cs">
     <Files>
       <File FileName="Methods/Program.cs" Line="21" Column="53" />
-      <File FileName="Classlar/Program.cs" Line="45" Column="1" />
-      <File FileName="Classlar/Calculator.cs" Line="1" Column="1" />
-      <File FileName="Classlar/Client.cs" Line="1" Column="1" />
-      <File FileName="Classlar/Person.cs" Line="1" Column="1" />
+      <File FileName="Classlar/Program.cs" />
+      <File FileName="Classlar/Calculator.cs" />
+      <File FileName="Classlar/Client.cs" />
+      <File FileName="Classlar/Person.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="yoxla" expanded="True">
-            <Node name="Classlar" expanded="True">
-              <Node name="Client.cs" selected="True" />
+            <Node name="Classlar" expanded="True" />
+            <Node name="Methods" expanded="True">
+              <Node name="Program.cs" selected="True" />
             </Node>
-            <Node name="Methods" expanded="True" />
           </Node>
         </State>
       </Pad>
