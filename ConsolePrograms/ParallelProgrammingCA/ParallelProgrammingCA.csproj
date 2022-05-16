@@ -5,4 +5,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="RegexSampleCA" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="RegexSampleCA">
+      <HintPath>..\..\RegexSolution\RegexSampleCA\bin\Debug\netcoreapp3.1\RegexSampleCA.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>

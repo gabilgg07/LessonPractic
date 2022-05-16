@@ -11,3 +11,6 @@
 /Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgrammingCA/obj/Debug/netcoreapp3.1/ParallelProgrammingCA.dll
 /Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgrammingCA/obj/Debug/netcoreapp3.1/ParallelProgrammingCA.pdb
 /Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgrammingCA/obj/Debug/netcoreapp3.1/ParallelProgrammingCA.genruntimeconfig.cache
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgrammingCA/bin/Debug/netcoreapp3.1/RegexSampleCA.dll
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgrammingCA/bin/Debug/netcoreapp3.1/RegexSampleCA.pdb
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgrammingCA/obj/Debug/netcoreapp3.1/ParallelProgrammingCA.csproj.CopyComplete

@@ -1,24 +1,43 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{5920E3DB-B065-4784-BD30-85EEF70727F6}|Default">
-  <MonoDevelop.Ide.ItemProperties.ParallelProgrammingCA PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ParallelProgrammingCA/Program.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{58147911-D3A9-484B-8E4A-CF5BFC0F8186}|Default">
+  <MonoDevelop.Ide.ItemProperties.ParallelProgramming.Htmls PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ParallelProgramming/Htmls/Views/Home/Index5.cshtml">
     <Files>
-      <File FileName="ParallelProgrammingCA/Program.cs" Line="1" Column="1" />
+      <File FileName="ParallelProgramming/Htmls/Program.cs" Line="1" Column="1" />
+      <File FileName="ParallelProgramming/Htmls/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="ParallelProgramming/Htmls/Controllers/HomeController.cs" Line="43" Column="27" />
+      <File FileName="ParallelProgramming/Htmls/Views/Home/Index2.cshtml" Line="4" Column="1" />
+      <File FileName="ParallelProgramming/Htmls/Views/Home/Index.cshtml" Line="5" Column="1" />
+      <File FileName="ParallelProgramming/Htmls/wwwroot/css/site.css" Line="163" Column="49" />
+      <File FileName="ParallelProgramming/Htmls/Startup.cs" Line="1" Column="1" />
+      <File FileName="ParallelProgramming/Htmls/Views/Home/Index4.cshtml" Line="11" Column="7" />
+      <File FileName="ParallelProgramming/Htmls/Views/Home/Index5.cshtml" Line="5" Column="1" />
+      <File FileName="ParallelProgramming/Htmls/Views/Home/Index3.cshtml" Line="11" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsolePrograms" expanded="True">
-            <Node name="106.Lesson" expanded="True" />
-            <Node name="Banks" expanded="True" />
-            <Node name="OOP" expanded="True" />
-            <Node name="ParallelProgrammingCA" expanded="True">
-              <Node name="Program.cs" selected="True" />
+            <Node name="ParallelProgramming" expanded="True">
+              <Node name="Htmls" expanded="True">
+                <Node name="Controllers" expanded="True" />
+                <Node name="Views" expanded="True">
+                  <Node name="Home" expanded="True">
+                    <Node name="Index5.cshtml" selected="True" />
+                  </Node>
+                  <Node name="Shared" expanded="True" />
+                </Node>
+                <Node name="wwwroot" expanded="True">
+                  <Node name="css" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="ParallelProgrammingCA" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ParallelProgramming.ParallelProgrammingCA PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>
     <String>OOP/EncapsulationLesson/InheritanceLesson/InheritanceLesson.csproj</String>
