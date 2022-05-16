@@ -16,9 +16,9 @@ namespace Methods
 
             Console.ReadKey();
 
-            AboutConsoleProperties();
+            // Only for Windows
+            //AboutConsoleProperties();
 
-            Console.ReadKey();
         }
 
         private static void AylarAzerbaycanDilinde()
