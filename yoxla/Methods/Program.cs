@@ -16,6 +16,9 @@ namespace Methods
 
             Console.ReadKey();
 
+            AboutConsoleProperties();
+
+            Console.ReadKey();
         }
 
         private static void AylarAzerbaycanDilinde()
@@ -230,6 +233,47 @@ namespace Methods
             }
 
             return newNum;
+        }
+
+        private static void AboutConsoleProperties()
+        {
+            Random r = new Random();
+
+            for (int i = 0; i < 10000; i++)
+            {
+                int num = r.Next(0, 2);
+                Console.Write(num);
+            }
+
+            Console.WindowTop = 0;
+            Console.CursorTop = 10;
+            Console.CursorLeft = 15;
+            for (int i = 0; i < 16; i++)
+            {
+                Console.Write(" ");
+            }
+            Console.CursorLeft = 15;
+            string word1 = " Salam ";
+            string word2 = "Insanlar ";
+            for (int i = 0; i < word1.Length; i++)
+            {
+                Console.Write(word1[i]);
+                Thread.Sleep(200);
+            }
+            Thread.Sleep(1500);
+
+            for (int i = 0; i < word2.Length; i++)
+            {
+                Console.Write(word2[i]);
+                Thread.Sleep(200);
+            }
+
+            for (int i = 0; i < 1000; i++)
+            {
+                Thread.Sleep(10);
+                Console.Write(")");
+            }
+
         }
     }
 }
