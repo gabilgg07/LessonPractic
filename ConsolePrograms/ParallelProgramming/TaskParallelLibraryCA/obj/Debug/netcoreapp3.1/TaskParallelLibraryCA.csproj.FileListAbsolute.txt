@@ -1,0 +1,15 @@
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgramming/TaskParallelLibraryCA/bin/Debug/netcoreapp3.1/TaskParallelLibraryCA.deps.json
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgramming/TaskParallelLibraryCA/bin/Debug/netcoreapp3.1/TaskParallelLibraryCA.runtimeconfig.json
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgramming/TaskParallelLibraryCA/bin/Debug/netcoreapp3.1/TaskParallelLibraryCA.runtimeconfig.dev.json
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgramming/TaskParallelLibraryCA/bin/Debug/netcoreapp3.1/TaskParallelLibraryCA.dll
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgramming/TaskParallelLibraryCA/bin/Debug/netcoreapp3.1/TaskParallelLibraryCA.pdb
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgramming/TaskParallelLibraryCA/obj/Debug/netcoreapp3.1/TaskParallelLibraryCA.csproj.AssemblyReference.cache
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgramming/TaskParallelLibraryCA/obj/Debug/netcoreapp3.1/TaskParallelLibraryCA.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgramming/TaskParallelLibraryCA/obj/Debug/netcoreapp3.1/TaskParallelLibraryCA.AssemblyInfoInputs.cache
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgramming/TaskParallelLibraryCA/obj/Debug/netcoreapp3.1/TaskParallelLibraryCA.AssemblyInfo.cs
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgramming/TaskParallelLibraryCA/obj/Debug/netcoreapp3.1/TaskParallelLibraryCA.csproj.CoreCompileInputs.cache
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgramming/TaskParallelLibraryCA/obj/Debug/netcoreapp3.1/TaskParallelLibraryCA.dll
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgramming/TaskParallelLibraryCA/obj/Debug/netcoreapp3.1/TaskParallelLibraryCA.pdb
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgramming/TaskParallelLibraryCA/obj/Debug/netcoreapp3.1/TaskParallelLibraryCA.genruntimeconfig.cache
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgramming/TaskParallelLibraryCA/bin/Debug/netcoreapp3.1/Helper.dll
+/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/ConsolePrograms/ParallelProgramming/TaskParallelLibraryCA/obj/Debug/netcoreapp3.1/TaskParallelLibraryCA.csproj.CopyComplete
