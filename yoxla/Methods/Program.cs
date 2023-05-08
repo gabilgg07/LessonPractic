@@ -1,8 +1,8 @@
-﻿using System;
+﻿using Helper;
+using System;
 using System.Globalization;
 using System.Text;
 using System.Threading;
-using Helper;
 
 namespace Methods
 {

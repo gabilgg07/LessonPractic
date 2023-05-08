@@ -1,7 +1,11 @@
 ﻿using System;
 using System.IO;
+using System.Reflection;
+using System.Reflection.Metadata;
 using System.Text.RegularExpressions;
 using RegexSampleCA.AppCode.Extensions;
+using System.Web;
+using System.Linq;
 
 namespace RegexSampleCA
 {
@@ -48,11 +52,19 @@ namespace RegexSampleCA
 
         private static void RegexMatchesMethod()
         {
-            string filePath = @"/Volumes/MySSD/01.Codes/01.VS/01.LessonsCodes/LessonPractic/RegexSolution/RegexSampleCA/p511-20210227.txt";
+            string fileName = "p511-20210227.txt";
 
-            string content = File.ReadAllText(filePath);
+            var directory = new DirectoryInfo(Directory.GetCurrentDirectory());
+            while (directory != null && !directory.GetFiles("*.sln").Any())
+            {
+                directory = directory.Parent;
+            }
+            string path = Path.Combine(directory.ToString(), AppDomain.CurrentDomain.FriendlyName, fileName);
 
-            //Console.WriteLine(content);
+
+            string content = File.ReadAllText(path);
+
+            Console.WriteLine(content);
 
             MatchCollection emails = Regex.Matches(content, Extension.emailInTextPattern);
 

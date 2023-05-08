@@ -10,10 +10,16 @@ namespace yoxla
         {
 
             string dateUiFormat = CultureInfo.CurrentUICulture.DateTimeFormat.ShortDatePattern;
+
             bool hasMM = dateUiFormat.Contains("MM");
             bool hasDD = dateUiFormat.Contains("dd");
+            bool hasYY = dateUiFormat.Contains("yy");
 
-            string dateFormat = dateUiFormat.Replace(hasMM?"MM":"M", "ay").Replace(hasDD ? "dd" : "d", "gun").Replace("yyyy", "il");
+            string dateFormat = dateUiFormat
+                .Replace("MMM", "ay")
+                .Replace(hasMM ? "MM" : "M", "ay")
+                .Replace(hasDD ? "dd" : "d", "gun")
+                .Replace(hasYY ? "yy" : "yyyy", "il");
 
             Console.Write($"Bir tarix daxil edin ({dateFormat} - formatinda): ");
             string strDate = Console.ReadLine();
@@ -33,7 +39,7 @@ namespace yoxla
             Console.WriteLine(message);
         }
 
-        private static void NumbersCascaating()
+        private static void NumbersCascating()
         {
             //byte b1 = 76;
             //int i = b1;
